@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 *{
     padding: 0%;
@@ -186,4 +187,43 @@ a {
     position: absolute;
     top: 23px;
     left: 23px;
+}
+
+.serviços {
+    margin-top: 300px;
+    width: 100%;
+    height: 300px;
+}
+
+.serviços p {
+    position: absolute;
+    width: 90px;
+    height: 20px;
+    top: 800px;
+    font-size: 12px;
+    letter-spacing: 3px;
+    padding-left: 74px;
+}
+
+.serviços h1 {
+    font-size: 40px;
+    padding-left: 74px;
+}
+
+.serviços button {
+    width: 200px;
+    height: 50px;
+    font-family: "Open Sans", sans-serif;
+    background-color: black;
+    color: white;
+    font-size: 11px;
+    border-radius: 50px;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+
+.alinhar {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 74px;
 }

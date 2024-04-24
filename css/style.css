@@ -234,7 +234,7 @@ a {
     background: #F3F6FC;
     border-radius: 60px;
     margin-top: 150px;
-    margin-left: 120px;
+    margin-left: 70px;
 }
 
 .space img {
@@ -250,7 +250,7 @@ a {
     letter-spacing: -0.72px;
     line-height: 30px;
     margin-top: 100px;
-    left: 20px;
+    left: 0px;
 }
 
 .space p {
@@ -261,6 +261,80 @@ a {
     color: #6E7488;
     font-weight: 400px;
     margin-top: 450px;
-    left: 20px;
+    left: 0px;
+    line-height: 26px;
+}
+
+.furniture {
+    width: 60px;
+    height: 60px;
+    background: #F3F6FC;
+    border-radius: 60px;
+    margin-left: 500px;
+    margin-top: -60px;
+}
+
+.furniture img {
+    display: flex;
+    margin-left: 18px;
+    padding-top: 20px;
+}
+
+.furniture h1 {
+    font-size: 24px;
+    position: absolute;
+    font-weight: 700;
+    letter-spacing: -0.72px;
+    line-height: 30px;
+    margin-top: 100px;
+    left: 428px;
+}
+
+.furniture p {
+    width: 400px;
+    height: 73px;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: #6E7488;
+    font-weight: 400px;
+    margin-top: 450px;
+    left: 430px;
+    line-height: 26px;
+}
+
+.layouts {
+    width: 60px;
+    height: 60px;
+    background: #F3F6FC;
+    border-radius: 60px;
+    margin-left: 950px;
+    margin-top: -60px;
+}
+
+.layouts img {
+    display: flex;
+    margin-left: 18px;
+    padding-top: 20px;
+}
+
+.layouts h1 {
+    font-size: 24px;
+    position: absolute;
+    font-weight: 700;
+    letter-spacing: -0.72px;
+    line-height: 30px;
+    margin-top: 100px;
+    left: 875px;
+}
+
+.layouts p {
+    width: 400px;
+    height: 73px;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: #6E7488;
+    font-weight: 400px;
+    margin-top: 450px;
+    left: 875px;
     line-height: 26px;
 }

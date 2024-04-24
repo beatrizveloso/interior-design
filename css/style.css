@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-*{
+* {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
@@ -11,17 +11,17 @@ body {
     font-family: "Inter", sans-serif;
 }
 
-.home img{
+.home img {
     width: 100%;
 }
 
-header{
+header {
     position: absolute;
     width: 100%;
     display: flex;
 }
 
-.logo{
+.logo {
     width: 346px;
     height: 54px;
     background-color: white;
@@ -30,13 +30,13 @@ header{
     display: flex;
 }
 
-.logo h1{
+.logo h1 {
     margin-top: 15px;
     margin-left: 15px;
     font-size: 18px;
 }
 
-.logo img{
+.logo img {
     margin-left: 240px;
     width: 6%;
 }
@@ -44,16 +44,16 @@ header{
 li {
     display: inline-block;
     margin: 20px;
-  }
-  
+}
+
 a {
     color: white;
     letter-spacing: 3px;
     font-weight: 300;
     font-size: 16px;
-  }
+}
 
-.text p{
+.text p {
     position: absolute;
     top: 100px;
     left: 80px;
@@ -63,7 +63,7 @@ a {
     font-size: 14px;
 }
 
-.text h1{
+.text h1 {
     position: absolute;
     top: 145px;
     left: 75px;
@@ -86,7 +86,7 @@ a {
     font-size: 8px;
 }
 
-.white-square{
+.white-square {
     width: 346px;
     height: 120px;
     background-color: white;
@@ -95,7 +95,7 @@ a {
     left: 75px;
 }
 
-.white-square p{
+.white-square p {
     position: absolute;
     top: 36px;
     left: 30px;
@@ -104,7 +104,7 @@ a {
     letter-spacing: 4px;
 }
 
-.white-square h1{
+.white-square h1 {
     position: absolute;
     top: 55px;
     left: 30px;
@@ -114,7 +114,7 @@ a {
     font-weight: 800;
 }
 
-.feature{
+.feature {
     background-color: #F3F6FC;
     position: absolute;
     top: 412px;
@@ -122,7 +122,7 @@ a {
     height: 150px;
 }
 
-.feature h1{
+.feature h1 {
     position: absolute;
     top: 50px;
     left: -5px;
@@ -133,7 +133,7 @@ a {
     letter-spacing: 3px;
 }
 
-.feature img{
+.feature img {
     position: absolute;
     top: 120px;
     left: 28px;
@@ -142,7 +142,7 @@ a {
     letter-spacing: 3px;
 }
 
-.square-corporate{
+.square-corporate {
     background-color: #F3F6FC;
     width: 930px;
     height: 210px;
@@ -151,7 +151,7 @@ a {
     left: 75px;
 }
 
-.square-corporate p{
+.square-corporate p {
     color: #6E7488;
     position: absolute;
     top: 52px;
@@ -159,20 +159,20 @@ a {
     font-size: 12px;
 }
 
-.square-corporate hr{
+.square-corporate hr {
     position: relative;
     width: 625px;
     top: 60px;
     left: 230px;
 }
 
-.square-corporate img{
+.square-corporate img {
     margin-top: 100px;
     padding-right: 60px;
     padding-left: 45px;
 }
 
-.circle-arrow{
+.circle-arrow {
     width: 70px;
     height: 70px;
     border-radius: 100px;
@@ -189,13 +189,13 @@ a {
     left: 23px;
 }
 
-.serviços {
+.services {
     margin-top: 300px;
     width: 100%;
     height: 300px;
 }
 
-.serviços p {
+.services p {
     position: absolute;
     width: 90px;
     height: 20px;
@@ -205,12 +205,12 @@ a {
     padding-left: 74px;
 }
 
-.serviços h1 {
+.services h1 {
     font-size: 40px;
     padding-left: 74px;
 }
 
-.serviços button {
+.services button {
     width: 200px;
     height: 50px;
     font-family: "Open Sans", sans-serif;
@@ -222,8 +222,45 @@ a {
     letter-spacing: 3px;
 }
 
-.alinhar {
+.lineUp {
     display: flex;
     justify-content: space-between;
     margin-right: 74px;
+}
+
+.space {
+    width: 60px;
+    height: 60px;
+    background: #F3F6FC;
+    border-radius: 60px;
+    margin-top: 150px;
+    margin-left: 120px;
+}
+
+.space img {
+    display: flex;
+    margin-left: 18px;
+    padding-top: 20px;
+}
+
+.space h1 {
+    font-size: 24px;
+    position: absolute;
+    font-weight: 700;
+    letter-spacing: -0.72px;
+    line-height: 30px;
+    margin-top: 100px;
+    left: 20px;
+}
+
+.space p {
+    width: 400px;
+    height: 73px;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: #6E7488;
+    font-weight: 400px;
+    margin-top: 450px;
+    left: 20px;
+    line-height: 26px;
 }

@@ -234,7 +234,7 @@ a {
     background: #F3F6FC;
     border-radius: 60px;
     margin-top: 150px;
-    margin-left: 120px;
+    margin-left: 95px;
 }
 
 .space img {
@@ -250,18 +250,18 @@ a {
     letter-spacing: -0.72px;
     line-height: 30px;
     margin-top: 100px;
-    left: 20px;
+    left: 15px;
 }
 
 .space p {
-    width: 400px;
+    width: 380px;
     height: 73px;
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
     color: #6E7488;
     font-weight: 400px;
     margin-top: 450px;
-    left: 20px;
+    left: 15px;
     line-height: 26px;
 }
 
@@ -270,7 +270,7 @@ a {
     height: 60px;
     background: #F3F6FC;
     border-radius: 60px;
-    margin-left: 500px;
+    margin-left: 470px;
     margin-top: -60px;
 }
 
@@ -287,18 +287,18 @@ a {
     letter-spacing: -0.72px;
     line-height: 30px;
     margin-top: 100px;
-    left: 428px;
+    left: 390px;
 }
 
 .furniture p {
-    width: 400px;
+    width: 380px;
     height: 73px;
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
     color: #6E7488;
     font-weight: 400px;
     margin-top: 450px;
-    left: 430px;
+    left: 390px;
     line-height: 26px;
 }
 
@@ -307,7 +307,7 @@ a {
     height: 60px;
     background: #F3F6FC;
     border-radius: 60px;
-    margin-left: 950px;
+    margin-left: 870px;
     margin-top: -60px;
 }
 
@@ -324,17 +324,80 @@ a {
     letter-spacing: -0.72px;
     line-height: 30px;
     margin-top: 100px;
-    left: 875px;
+    left: 790px;
 }
 
 .layouts p {
-    width: 400px;
+    width: 380px;
     height: 73px;
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
     color: #6E7488;
     font-weight: 400px;
     margin-top: 450px;
-    left: 875px;
+    left: 790px;
     line-height: 26px;
+}
+
+.about-nside{
+    width: 1215px;
+    height: 1000px;
+    background-image: url(/img/innovating.svg);
+    margin-top: 330px;
+}
+
+.about-nside p{
+    position: absolute;
+    top: 1580px;
+    left: 120px;
+    color: white;
+    letter-spacing: 3px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.about-nside h1 {
+    position: absolute;
+    top: 1700px;
+    left: 120px;
+    color: white;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.about-nside h2{
+    position: absolute;
+    top: 1972px;
+    left: 120px;
+    color: white;
+    letter-spacing: 3px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.about-nside img{
+    position: absolute;
+    top: 1970px;
+    left: 90px;
+    color: white;
+    letter-spacing: 3px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.circle-play {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: transparent;
+    border: 1px solid white;
+    position: absolute;
+    top: 2090px;
+    left: 120px;
+}
+
+.circle-play img {
+    position: absolute;
+    top: 38px;
+    left: 38px;
 }

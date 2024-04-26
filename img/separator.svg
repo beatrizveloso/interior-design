@@ -1,0 +1,6 @@
+<svg width="2" height="20" viewBox="0 0 2 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="path-1-inside-1_1_815" fill="white">
+<path d="M0 0H2V20H0V0Z"/>
+</mask>
+<path d="M2 20V0H-2V20H2Z" fill="white" mask="url(#path-1-inside-1_1_815)"/>
+</svg>

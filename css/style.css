@@ -339,14 +339,14 @@ a {
     line-height: 26px;
 }
 
-.about-nside{
-    width: 1215px;
+.about-nside {
+    width: 100%;
     height: 1000px;
     background-image: url(/img/innovating.svg);
     margin-top: 330px;
 }
 
-.about-nside p{
+.about-nside p {
     position: absolute;
     top: 1580px;
     left: 120px;
@@ -365,7 +365,7 @@ a {
     font-weight: 600;
 }
 
-.about-nside h2{
+.about-nside h2 {
     position: absolute;
     top: 1972px;
     left: 120px;
@@ -375,7 +375,7 @@ a {
     font-size: 14px;
 }
 
-.about-nside img{
+.about-nside img {
     position: absolute;
     top: 1970px;
     left: 90px;
@@ -400,4 +400,47 @@ a {
     position: absolute;
     top: 38px;
     left: 38px;
+}
+
+.explore-work {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.explore-work img {
+    width: 1200px;
+    height: 550px;
+}
+
+.explore-work p {
+    position: absolute;
+    color: white;
+    margin-top: -150px;
+    letter-spacing: 4px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.explore-work h1 {
+    position: absolute;
+    margin-top: -40px;
+    color: white;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.explore-work button {
+    position: absolute;
+    margin-top: 150px;
+    width: 200px;
+    height: 50px;
+    font-family: "Open Sans", sans-serif;
+    background-color: transparent;
+    color: white;
+    font-size: 11px;
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.75);
+    font-weight: 200;
+    letter-spacing: 3px;
 }

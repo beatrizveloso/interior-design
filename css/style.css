@@ -461,7 +461,7 @@ a {
     width: 350px;
     height: 15px;
     font-size: 12px;
-    color:#090B19;
+    color: #090B19;
     font-weight: 400px;
     line-height: 20px;
     letter-spacing: 4px;
@@ -470,7 +470,7 @@ a {
     justify-content: center;
 }
 
-.properties{
+.properties {
     margin-top: 180px;
     width: 100%;
     height: 1400px;
@@ -484,60 +484,60 @@ a {
 .dis-properties img,
 .nik-properties img,
 .met-properties img,
-.hom-properties img{
+.hom-properties img {
     width: 360px;
     height: 350px;
 }
 
-.all-properties img{
+.all-properties img {
     position: absolute;
     top: 3240px;
     left: 80px;
 }
 
-.spo-properties img{
+.spo-properties img {
     position: absolute;
     top: 3180px;
     left: 430px;
 }
 
-.mic-properties img{
+.mic-properties img {
     position: absolute;
     top: 3240px;
     left: 780px;
 }
 
-.exx-properties img{
+.exx-properties img {
     position: absolute;
     top: 3650px;
     left: 80px;
 }
 
-.del-properties img{
+.del-properties img {
     position: absolute;
     top: 3710px;
     left: 430px;
 }
 
-.dis-properties img{
+.dis-properties img {
     position: absolute;
     top: 3650px;
     left: 780px;
 }
 
-.nik-properties img{
+.nik-properties img {
     position: absolute;
     top: 4200px;
     left: 80px;
 }
 
-.met-properties img{
+.met-properties img {
     position: absolute;
     top: 4140px;
     left: 430px;
 }
 
-.hom-properties img{
+.hom-properties img {
     position: absolute;
     top: 4200px;
     left: 780px;
@@ -551,62 +551,62 @@ a {
 .dis-properties p,
 .nik-properties p,
 .met-properties p,
-.hom-properties p{
+.hom-properties p {
     color: white;
     letter-spacing: 4px;
     font-weight: 400;
     font-size: 10px;
 }
 
-.all-properties p{
+.all-properties p {
     position: absolute;
     top: 3270px;
     left: 190px;
 }
 
-.spo-properties p{
+.spo-properties p {
     position: absolute;
     top: 3210px;
     left: 520px;
 }
 
-.mic-properties p{
+.mic-properties p {
     position: absolute;
     top: 3270px;
     left: 890px;
 }
 
-.exx-properties p{
+.exx-properties p {
     position: absolute;
     top: 3680px;
     left: 140px;
 }
 
-.del-properties p{
+.del-properties p {
     position: absolute;
     top: 3740px;
     left: 490px;
 }
 
-.dis-properties p{
+.dis-properties p {
     position: absolute;
     top: 3680px;
     left: 840px;
 }
 
-.nik-properties p{
+.nik-properties p {
     position: absolute;
     top: 4230px;
     left: 150px;
 }
 
-.met-properties p{
+.met-properties p {
     position: absolute;
     top: 4170px;
     left: 550px;
 }
 
-.hom-properties p{
+.hom-properties p {
     position: absolute;
     top: 4230px;
     left: 870px;
@@ -620,61 +620,61 @@ a {
 .dis-properties h1,
 .nik-properties h1,
 .met-properties h1,
-.hom-properties h1{
+.hom-properties h1 {
     color: white;
     font-size: 20px;
     font-weight: 600;
 }
 
-.all-properties h1{
+.all-properties h1 {
     position: absolute;
     top: 3290px;
     left: 130px;
 }
 
-.spo-properties h1{
+.spo-properties h1 {
     position: absolute;
     top: 3230px;
     left: 510px;
 }
 
-.mic-properties h1{
+.mic-properties h1 {
     position: absolute;
     top: 3290px;
     left: 840px;
 }
 
-.exx-properties h1{
+.exx-properties h1 {
     position: absolute;
     top: 3700px;
     left: 150px;
 }
 
-.del-properties h1{
+.del-properties h1 {
     position: absolute;
     top: 3760px;
     left: 510px;
 }
 
-.dis-properties h1{
+.dis-properties h1 {
     position: absolute;
     top: 3700px;
     left: 860px;
 }
 
-.nik-properties h1{
+.nik-properties h1 {
     position: absolute;
     top: 4260px;
     left: 150px;
 }
 
-.met-properties h1{
+.met-properties h1 {
     position: absolute;
     top: 4190px;
     left: 490px;
 }
 
-.hom-properties h1{
+.hom-properties h1 {
     position: absolute;
     top: 4260px;
     left: 830px;
@@ -688,63 +688,140 @@ a {
 .dis-properties h2,
 .nik-properties h2,
 .met-properties h2,
-.hom-properties h2{
+.hom-properties h2 {
     color: white;
     letter-spacing: 4px;
     font-weight: 400;
     font-size: 12px;
 }
 
-.all-properties h2{
+.all-properties h2 {
     position: absolute;
     top: 3540px;
     left: 230px;
 }
 
-.spo-properties h2{
+.spo-properties h2 {
     position: absolute;
     top: 3480px;
     left: 580px;
 }
 
-.mic-properties h2{
+.mic-properties h2 {
     position: absolute;
     top: 3540px;
     left: 930px;
 }
 
-.exx-properties h2{
+.exx-properties h2 {
     position: absolute;
     top: 3960px;
     left: 230px;
 }
 
-.del-properties h2{
+.del-properties h2 {
     position: absolute;
     top: 4010px;
     left: 580px;
 }
 
-.dis-properties h2{
+.dis-properties h2 {
     position: absolute;
     top: 3960px;
     left: 930px;
 }
 
-.nik-properties h2{
+.nik-properties h2 {
     position: absolute;
     top: 4510px;
     left: 230px;
 }
 
-.met-properties h2{
+.met-properties h2 {
     position: absolute;
     top: 4440px;
     left: 580px;
 }
 
-.hom-properties h2{
+.hom-properties h2 {
     position: absolute;
     top: 4510px;
     left: 930px;
+}
+
+.samantha {
+    background-color: #090B19;
+    width: 100%;
+    height: 550px;
+}
+
+.samantha img {
+    position: relative;
+    width: 466px;
+    height: 550px;
+    margin-left: 100px;
+}
+
+.previous {
+    margin-left: -13px;
+    width: 268px;
+    height: 70px;
+    transform: rotate(-90deg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -180px;
+    background-color: #090B1980;
+    color: white;
+    border: 1px #FFFFFF1A;
+}
+
+.next {
+    margin-left: -13px;
+    width: 268px;
+    height: 70px;
+    transform: rotate(-90deg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -340px;
+    background-color: #090B1980;
+    color: white;
+    border: 1px #FFFFFF1A;
+}
+
+.samantha h1 {
+    color: white;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 55px;
+    margin-left: 650px;
+    margin-top: -120px;
+    letter-spacing: -1.44px;
+}
+
+.local {
+    color: white;
+    font-weight: 400px;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 4px;
+    margin-left: 655px;
+    margin-top: 300px;
+}
+
+.samanthaFeed {
+    color: white;
+    width: 318px;
+    height: 73px;
+    line-height: 25px;
+    font-weight: 400px;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    margin-left: 950px;
+    margin-top: -370px;
+    display: flex;
+    align-items: center;
 }

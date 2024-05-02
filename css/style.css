@@ -259,7 +259,7 @@ a {
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
     color: #6E7488;
-    font-weight: 400px;
+    font-weight: 400;
     margin-top: 450px;
     left: 15px;
     line-height: 26px;
@@ -296,7 +296,7 @@ a {
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
     color: #6E7488;
-    font-weight: 400px;
+    font-weight: 400;
     margin-top: 450px;
     left: 390px;
     line-height: 26px;
@@ -333,7 +333,7 @@ a {
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
     color: #6E7488;
-    font-weight: 400px;
+    font-weight: 400;
     margin-top: 450px;
     left: 790px;
     line-height: 26px;
@@ -462,7 +462,7 @@ a {
     height: 15px;
     font-size: 12px;
     color: #090B19;
-    font-weight: 400px;
+    font-weight: 400;
     line-height: 20px;
     letter-spacing: 4px;
     display: flex;
@@ -804,7 +804,7 @@ a {
 
 .local {
     color: white;
-    font-weight: 100px;
+    font-weight: 100;
     font-size: 12px;
     line-height: 20px;
     letter-spacing: 4px;
@@ -817,7 +817,7 @@ a {
     width: 318px;
     height: 73px;
     line-height: 25px;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
     margin-left: 880px;
@@ -826,13 +826,13 @@ a {
     align-items: center;
 }
 
-.our-team{
+.our-team {
     width: 100%;
     height: 650px;
     margin-top: 90px;
 }
 
-.our-team p{
+.our-team p {
     font-size: 12px;
     letter-spacing: 3px;
     padding-left: 74px;
@@ -844,7 +844,7 @@ a {
     margin-right: 74px;
 }
 
-.behind h1{
+.behind h1 {
     font-size: 40px;
     padding-left: 74px;
     padding-top: 20px;
@@ -852,7 +852,7 @@ a {
     justify-content: space-between;
 }
 
-.behind button{
+.behind button {
     width: 200px;
     height: 50px;
     font-family: "Open Sans", sans-serif;
@@ -866,14 +866,14 @@ a {
 
 .jessica img,
 .ryan img,
-.carrie img{
+.carrie img {
     width: 355px;
     height: 355px;
 }
 
 .jessica h1,
 .ryan h1,
-.carrie h1{
+.carrie h1 {
     color: white;
     font-size: 18px;
     font-weight: 600;
@@ -888,55 +888,55 @@ a {
     font-size: 10px;
 }
 
-.jessica img{
+.jessica img {
     position: absolute;
     top: 5350px;
     left: 80px;
 }
 
-.jessica h1{
+.jessica h1 {
     position: absolute;
     top: 5380px;
     left: 98px;
 }
 
-.jessica p{
+.jessica p {
     position: absolute;
     top: 5380px;
     left: 305px;
 }
 
-.ryan img{
+.ryan img {
     position: absolute;
     top: 5420px;
     left: 434px;
 }
 
-.ryan h1{
+.ryan h1 {
     position: absolute;
     top: 5450px;
     left: 460px;
 }
 
-.ryan p{
+.ryan p {
     position: absolute;
     top: 5450px;
     left: 655px;
 }
 
-.carrie img{
+.carrie img {
     position: absolute;
     top: 5480px;
     left: 787px;
 }
 
-.carrie h1{
+.carrie h1 {
     position: absolute;
     top: 5510px;
     left: 810px;
 }
 
-.carrie p{
+.carrie p {
     position: absolute;
     top: 5510px;
     left: 1005px;
@@ -953,80 +953,80 @@ a {
 .circle-insta-car,
 .circle-face-car,
 .circle-link-car,
-.circle-yout-car{
+.circle-yout-car {
     width: 28px;
     height: 28px;
     background-color: white;
     border-radius: 150px;
 }
 
-.circle-insta{
+.circle-insta {
     position: absolute;
     top: 5650px;
     left: 190px;
 }
 
-.circle-face{
+.circle-face {
     position: absolute;
     top: 5650px;
     left: 226px;
 }
 
-.circle-link{
+.circle-link {
     position: absolute;
     top: 5650px;
     left: 260px;
 }
 
-.circle-yout{
+.circle-yout {
     position: absolute;
     top: 5650px;
     left: 295px;
 }
 
-.circle-insta-ryan{
+.circle-insta-ryan {
     position: absolute;
     top: 5720px;
     left: 545px;
 }
 
-.circle-face-ryan{
+.circle-face-ryan {
     position: absolute;
     top: 5720px;
     left: 580px;
 }
 
-.circle-link-ryan{
+.circle-link-ryan {
     position: absolute;
     top: 5720px;
     left: 615px;
 }
 
-.circle-yout-ryan{
+.circle-yout-ryan {
     position: absolute;
     top: 5720px;
     left: 650px;
 }
 
-.circle-insta-car{
+.circle-insta-car {
     position: absolute;
     top: 5780px;
     left: 900px;
 }
 
-.circle-face-car{
+.circle-face-car {
     position: absolute;
     top: 5780px;
     left: 935px;
 }
 
-.circle-link-car{
+.circle-link-car {
     position: absolute;
     top: 5780px;
     left: 970px;
 }
 
-.circle-yout-car{
+.circle-yout-car {
     position: absolute;
     top: 5780px;
     left: 1005px;
@@ -1043,83 +1043,84 @@ a {
 .circle-insta-car img,
 .circle-face-car img,
 .circle-link-car img,
-.circle-yout-car img{
+.circle-yout-car img {
     width: 15px;
     height: 15px;
 }
 
-.circle-insta img{
+.circle-insta img {
     position: absolute;
     top: 6px;
     left: 6px;
 }
 
-.circle-face img{
+.circle-face img {
     position: absolute;
     top: 6px;
     left: 6px;
 }
 
-.circle-link img{
+.circle-link img {
     position: absolute;
     top: 6px;
     left: 6px;
 }
 
-.circle-yout img{
+.circle-yout img {
     position: absolute;
     top: 6px;
     left: 6px;
 }
 
-.circle-insta-ryan img{
+.circle-insta-ryan img {
     position: absolute;
     top: 6px;
     left: 6px;
 }
 
-.circle-face-ryan img{
+.circle-face-ryan img {
     position: absolute;
     top: 6px;
     left: 6px;
 }
 
-.circle-link-ryan img{
+.circle-link-ryan img {
     position: absolute;
     top: 6px;
     left: 6px;
 }
 
-.circle-yout-ryan img{
+.circle-yout-ryan img {
     position: absolute;
     top: 6px;
     left: 6px;
 }
 
-.circle-insta-car img{
+.circle-insta-car img {
     position: absolute;
     top: 6px;
     left: 6px;
 }
 
-.circle-face-car img{
+.circle-face-car img {
     position: absolute;
     top: 6px;
     left: 6px;
 }
 
-.circle-link-car img{
+.circle-link-car img {
     position: absolute;
     top: 6px;
     left: 6px;
 }
 
-.circle-yout-car img{
+.circle-yout-car img {
     position: absolute;
     top: 6px;
     left: 6px;
 }
-.banner{
+
+.banner {
     width: 100%;
     height: 500px;
     display: flex;
@@ -1127,6 +1128,103 @@ a {
     align-items: center;
 }
 
-.banner img{
+.banner img {
     width: 90%;
+}
+
+.popularCategories h1 {
+    margin-left: 65px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 4px;
+    color: #090B19;
+    margin-top: 300px;
+}
+
+.popularCategories p {
+    margin-left: 35px;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    display: flex;
+    padding: 30px;
+    color: #6E7488;
+}
+
+.recentPosts p {
+    margin-top: -750px;
+    margin-left: 400px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 4px;
+    color: #090B19;
+}
+
+.recentPosts h1 {
+    margin-left: 400px;
+    margin-top: 10px;
+    font-weight: 600;
+    line-height: 50px;
+    font-size: 48px;
+    letter-spacing: 2px;
+}
+
+.recentPosts button {
+    position: absolute;
+    margin-top: -54px;
+    margin-left: 1025px;
+    width: 200px;
+    height: 54px;
+    border-radius: 100px;
+    background-color: #090B19;
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.principles img {
+    margin-left: 400px;
+    margin-top: 110px;
+}
+
+.principles h1 {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #090B19;
+}
+
+.principles p {
+    margin-top: 20px;
+    width: 482px;
+    height: 52px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #6E7488;
+}
+
+.floor li {
+    position: absolute;
+    margin-left: 400px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #6E7488;
 }

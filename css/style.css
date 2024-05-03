@@ -763,7 +763,7 @@ a {
 }
 
 .previous {
-    margin-left: -13px;
+    margin-left: -30px;
     width: 268px;
     height: 70px;
     transform: rotate(-90deg);
@@ -778,7 +778,7 @@ a {
 }
 
 .next {
-    margin-left: -13px;
+    margin-left: -30px;
     width: 268px;
     height: 70px;
     transform: rotate(-90deg);
@@ -1133,7 +1133,7 @@ a {
 }
 
 .popularCategories h1 {
-    margin-left: 65px;
+    margin-left: 50px;
     font-weight: 400;
     font-size: 12px;
     line-height: 20px;
@@ -1145,7 +1145,7 @@ a {
 }
 
 .popularCategories p {
-    margin-left: 35px;
+    margin-left: 20px;
     margin-top: 10px;
     font-weight: 400;
     font-size: 16px;
@@ -1158,7 +1158,7 @@ a {
 
 .recentPosts p {
     margin-top: -750px;
-    margin-left: 400px;
+    margin-left: 350px;
     font-weight: 400;
     font-size: 12px;
     line-height: 20px;
@@ -1167,7 +1167,7 @@ a {
 }
 
 .recentPosts h1 {
-    margin-left: 400px;
+    margin-left: 350px;
     margin-top: 10px;
     font-weight: 600;
     line-height: 50px;
@@ -1193,11 +1193,12 @@ a {
 }
 
 .principles img {
-    margin-left: 400px;
+    margin-left: 350px;
     margin-top: 110px;
 }
 
 .principles h1 {
+    margin-top: 30px;
     font-family: Inter;
     font-size: 18px;
     font-weight: 700;
@@ -1208,7 +1209,7 @@ a {
 
 .principles p {
     margin-top: 20px;
-    width: 482px;
+    width: 462px;
     height: 52px;
     font-family: 'Open Sans';
     font-size: 16px;
@@ -1218,13 +1219,41 @@ a {
     color: #6E7488;
 }
 
-.floor li {
+.floor p {
     position: absolute;
-    margin-left: 400px;
+    margin-left: 700px;
+    margin-top: 80px;
     font-family: 'Open Sans';
     font-size: 16px;
     font-weight: 400;
     line-height: 25px;
     text-align: left;
     color: #6E7488;
+}
+
+.floor h1 {
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 80px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #6E7488;
+}
+
+.webflow img {
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 815px;
+}
+
+.webflow h1 {
+    margin-left: 815px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #090B19;
 }

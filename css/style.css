@@ -1198,8 +1198,8 @@ a {
 }
 
 .principles h1 {
+    margin-left: 360px;
     margin-top: 30px;
-    font-family: Inter;
     font-size: 18px;
     font-weight: 700;
     line-height: 24px;
@@ -1208,8 +1208,9 @@ a {
 }
 
 .principles p {
+    margin-left: 360px;
     margin-top: 20px;
-    width: 462px;
+    width: 460px;
     height: 52px;
     font-family: 'Open Sans';
     font-size: 16px;
@@ -1233,7 +1234,7 @@ a {
 
 .floor h1 {
     position: absolute;
-    margin-left: 350px;
+    margin-left: 360px;
     margin-top: 80px;
     font-family: 'Open Sans';
     font-size: 16px;
@@ -1244,16 +1245,160 @@ a {
 }
 
 .webflow img {
-    position: absolute;
+    display: flex;
+    margin-left: 816px;
     margin-top: -300px;
-    margin-left: 815px;
 }
 
 .webflow h1 {
-    margin-left: 815px;
+    margin-top: 30px;
+    margin-left: 830px;
     font-size: 18px;
     font-weight: 700;
     line-height: 24px;
     text-align: left;
     color: #090B19;
+}
+
+.webflow p {
+    margin-left: 830px;
+    margin-top: 20px;
+    width: 462px;
+    height: 52px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #6E7488;
+}
+
+.loveWeb p {
+    position: absolute;
+    margin-left: 1165px;
+    margin-top: 80px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #6E7488;
+}
+
+.loveWeb h1 {
+    position: absolute;
+    margin-left: 830px;
+    margin-top: 80px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #6E7488;
+}
+
+.bestExamples img {
+    margin-left: 350px;
+    margin-top: 70px;
+}
+
+.bestExamples h1 {
+    width: 450px;
+    margin-left: 360px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #090B19;
+}
+
+.bestExamples p {
+    margin-left: 360px;
+    margin-top: 20px;
+    width: 460px;
+    height: 52px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #6E7488;
+}
+
+.blogDesign h1 {
+    position: absolute;
+    margin-left: 360px;
+    margin-top: 80px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #6E7488;
+}
+
+.blogDesign p {
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 80px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #6E7488;
+}
+
+.misconceptions img {
+    display: flex;
+    margin-left: 816px;
+    margin-top: -320px;
+}
+
+.misconceptions h1 {
+    margin-top: 30px;
+    margin-left: 830px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #090B19;
+}
+
+.misconceptions p {
+    margin-left: 830px;
+    margin-top: 20px;
+    width: 462px;
+    height: 52px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #6E7488;
+}
+
+.organization h1 {
+    position: absolute;
+    margin-left: 830px;
+    margin-top: 80px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #6E7488;
+}
+
+.organization p {
+    position: absolute;
+    margin-left: 1165px;
+    margin-top: 80px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #6E7488;
 }

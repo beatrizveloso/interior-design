@@ -1135,7 +1135,7 @@ a {
 .popularCategories h1 {
     margin-left: 50px;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 10px;
     line-height: 20px;
     display: flex;
     align-items: center;
@@ -1148,12 +1148,16 @@ a {
     margin-left: 20px;
     margin-top: 10px;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 20px;
     letter-spacing: 1px;
     display: flex;
     padding: 30px;
     color: #6E7488;
+}
+
+.recentPosts {
+    width: 100%;
 }
 
 .recentPosts p {
@@ -1178,7 +1182,7 @@ a {
 .recentPosts button {
     position: absolute;
     margin-top: -54px;
-    margin-left: 1025px;
+    margin-left: 950px;
     width: 200px;
     height: 54px;
     border-radius: 100px;
@@ -1193,12 +1197,14 @@ a {
 }
 
 .principles img {
-    margin-left: 350px;
+    width: 440px;
+    height: 210px;
+    margin-left: 325px;
     margin-top: 110px;
 }
 
 .principles h1 {
-    margin-left: 360px;
+    margin-left: 335px;
     margin-top: 30px;
     font-size: 18px;
     font-weight: 700;
@@ -1208,9 +1214,9 @@ a {
 }
 
 .principles p {
-    margin-left: 360px;
+    margin-left: 335px;
     margin-top: 20px;
-    width: 460px;
+    width: 432px;
     height: 52px;
     font-family: 'Open Sans';
     font-size: 16px;
@@ -1222,7 +1228,7 @@ a {
 
 .floor p {
     position: absolute;
-    margin-left: 700px;
+    margin-left: 660px;
     margin-top: 80px;
     font-family: 'Open Sans';
     font-size: 16px;
@@ -1234,7 +1240,7 @@ a {
 
 .floor h1 {
     position: absolute;
-    margin-left: 360px;
+    margin-left: 335px;
     margin-top: 80px;
     font-family: 'Open Sans';
     font-size: 16px;
@@ -1245,14 +1251,16 @@ a {
 }
 
 .webflow img {
+    width: 440px;
+    height: 210px;
     display: flex;
-    margin-left: 816px;
+    margin-left: 758px;
     margin-top: -300px;
 }
 
 .webflow h1 {
     margin-top: 30px;
-    margin-left: 830px;
+    margin-left: 775px;
     font-size: 18px;
     font-weight: 700;
     line-height: 24px;
@@ -1261,9 +1269,9 @@ a {
 }
 
 .webflow p {
-    margin-left: 830px;
+    margin-left: 775px;
     margin-top: 20px;
-    width: 462px;
+    width: 432px;
     height: 52px;
     font-family: 'Open Sans';
     font-size: 16px;
@@ -1275,7 +1283,7 @@ a {
 
 .loveWeb p {
     position: absolute;
-    margin-left: 1165px;
+    margin-left: 1110px;
     margin-top: 80px;
     font-family: 'Open Sans';
     font-size: 16px;
@@ -1287,7 +1295,7 @@ a {
 
 .loveWeb h1 {
     position: absolute;
-    margin-left: 830px;
+    margin-left: 775px;
     margin-top: 80px;
     font-family: 'Open Sans';
     font-size: 16px;
@@ -1298,13 +1306,15 @@ a {
 }
 
 .bestExamples img {
-    margin-left: 350px;
+    width: 440px;
+    height: 210px;
+    margin-left: 325px;
     margin-top: 70px;
 }
 
 .bestExamples h1 {
-    width: 450px;
-    margin-left: 360px;
+    width: 420px;
+    margin-left: 335px;
     margin-top: 30px;
     font-size: 18px;
     font-weight: 700;
@@ -1314,9 +1324,9 @@ a {
 }
 
 .bestExamples p {
-    margin-left: 360px;
+    margin-left: 335px;
     margin-top: 20px;
-    width: 460px;
+    width: 432px;
     height: 52px;
     font-family: 'Open Sans';
     font-size: 16px;
@@ -1328,7 +1338,7 @@ a {
 
 .blogDesign h1 {
     position: absolute;
-    margin-left: 360px;
+    margin-left: 335px;
     margin-top: 80px;
     font-family: 'Open Sans';
     font-size: 16px;
@@ -1340,7 +1350,7 @@ a {
 
 .blogDesign p {
     position: absolute;
-    margin-left: 700px;
+    margin-left: 660px;
     margin-top: 80px;
     font-family: 'Open Sans';
     font-size: 16px;
@@ -1351,14 +1361,16 @@ a {
 }
 
 .misconceptions img {
+    width: 440px;
+    height: 210px;
     display: flex;
-    margin-left: 816px;
+    margin-left: 758px;
     margin-top: -320px;
 }
 
 .misconceptions h1 {
     margin-top: 30px;
-    margin-left: 830px;
+    margin-left: 775px;
     font-size: 18px;
     font-weight: 700;
     line-height: 24px;
@@ -1367,9 +1379,9 @@ a {
 }
 
 .misconceptions p {
-    margin-left: 830px;
+    margin-left: 775px;
     margin-top: 20px;
-    width: 462px;
+    width: 432px;
     height: 52px;
     font-family: 'Open Sans';
     font-size: 16px;
@@ -1381,7 +1393,7 @@ a {
 
 .organization h1 {
     position: absolute;
-    margin-left: 830px;
+    margin-left: 775px;
     margin-top: 80px;
     font-family: 'Open Sans';
     font-size: 16px;
@@ -1393,7 +1405,7 @@ a {
 
 .organization p {
     position: absolute;
-    margin-left: 1165px;
+    margin-left: 1110px;
     margin-top: 80px;
     font-family: 'Open Sans';
     font-size: 16px;

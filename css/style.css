@@ -1365,7 +1365,7 @@ a {
     height: 210px;
     display: flex;
     margin-left: 758px;
-    margin-top: -320px;
+    margin-top: -315px;
 }
 
 .misconceptions h1 {
@@ -1394,7 +1394,7 @@ a {
 .organization h1 {
     position: absolute;
     margin-left: 775px;
-    margin-top: 80px;
+    margin-top: 98px;
     font-family: 'Open Sans';
     font-size: 16px;
     font-weight: 400;
@@ -1406,7 +1406,117 @@ a {
 .organization p {
     position: absolute;
     margin-left: 1110px;
+    margin-top: 98px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #6E7488;
+}
+
+.sevenThings img {
+    width: 440px;
+    height: 210px;
+    margin-left: 325px;
+    margin-top: 85px;
+}
+
+.sevenThings h1 {
+    width: 420px;
+    margin-left: 335px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #090B19;
+}
+
+.sevenThings p {
+    margin-left: 335px;
+    margin-top: 20px;
+    width: 432px;
+    height: 52px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #6E7488;
+}
+
+.boss h1 {
+    position: absolute;
+    margin-left: 335px;
     margin-top: 80px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #6E7488;
+}
+
+.boss p {
+    position: absolute;
+    margin-left: 660px;
+    margin-top: 80px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #6E7488;
+}
+
+.worstAdvice img {
+    width: 440px;
+    height: 210px;
+    display: flex;
+    margin-left: 758px;
+    margin-top: -315px;
+}
+
+.worstAdvice h1 {
+    margin-top: 30px;
+    margin-left: 775px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #090B19;
+}
+
+.worstAdvice p {
+    margin-left: 775px;
+    margin-top: 20px;
+    width: 432px;
+    height: 52px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #6E7488;
+}
+
+.design h1 {
+    position: absolute;
+    margin-left: 775px;
+    margin-top: 98px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #6E7488;
+}
+
+.design p {
+    position: absolute;
+    margin-left: 1110px;
+    margin-top: 98px;
     font-family: 'Open Sans';
     font-size: 16px;
     font-weight: 400;

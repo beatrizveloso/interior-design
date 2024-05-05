@@ -1262,6 +1262,7 @@ a {
 .webflow h1 {
     margin-top: 30px;
     margin-left: 775px;
+    width: 432px;
     font-size: 18px;
     font-weight: 700;
     line-height: 24px;
@@ -1372,6 +1373,7 @@ a {
 .misconceptions h1 {
     margin-top: 30px;
     margin-left: 775px;
+    width: 432px;
     font-size: 18px;
     font-weight: 700;
     line-height: 24px;
@@ -1482,6 +1484,7 @@ a {
 .worstAdvice h1 {
     margin-top: 30px;
     margin-left: 775px;
+    width: 432px;
     font-size: 18px;
     font-weight: 700;
     line-height: 24px;
@@ -1492,7 +1495,7 @@ a {
 .worstAdvice p {
     margin-left: 775px;
     margin-top: 20px;
-    width: 432px;
+    width: 332px;
     height: 52px;
     font-family: 'Open Sans';
     font-size: 16px;
@@ -1598,7 +1601,6 @@ a {
 
 .follow p {
     color: white;
-    font-family: Inter;
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
@@ -1608,15 +1610,12 @@ a {
     padding: 30px;
 }
 
-.circule {
-    display: flex;
-    flex-direction: column;
-    padding-top: 100px;
-
-}
-
 .circleInstagram {
-    margin-top: 50px;
+    margin-top: -290px;
+    margin-left: 900px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
     width: 28px;
     height: 28px;
     background-color: white;
@@ -1625,6 +1624,10 @@ a {
 
 .circleFacebook {
     margin-top: 50px;
+    margin-left: 900px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
     width: 28px;
     height: 28px;
     background-color: white;
@@ -1633,6 +1636,10 @@ a {
 
 .circleLinkedin {
     margin-top: 50px;
+    margin-left: 900px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
     width: 28px;
     height: 28px;
     background-color: white;
@@ -1641,6 +1648,10 @@ a {
 
 .circleYoutube {
     margin-top: 50px;
+    margin-left: 900px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
     width: 28px;
     height: 28px;
     background-color: white;

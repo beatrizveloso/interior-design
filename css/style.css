@@ -450,7 +450,8 @@ a {
     width: 1120px;
     height: 110px;
     position: absolute;
-    margin-left: 91px;
+    margin-left: 51px;
+    margin-top: -38px;
     top: 2998px;
     display: flex;
     align-items: center;
@@ -1365,7 +1366,7 @@ a {
     height: 210px;
     display: flex;
     margin-left: 758px;
-    margin-top: -320px;
+    margin-top: -315px;
 }
 
 .misconceptions h1 {
@@ -1394,7 +1395,7 @@ a {
 .organization h1 {
     position: absolute;
     margin-left: 775px;
-    margin-top: 80px;
+    margin-top: 98px;
     font-family: 'Open Sans';
     font-size: 16px;
     font-weight: 400;
@@ -1406,6 +1407,49 @@ a {
 .organization p {
     position: absolute;
     margin-left: 1110px;
+    margin-top: 98px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #6E7488;
+}
+
+.sevenThings img {
+    width: 440px;
+    height: 210px;
+    margin-left: 325px;
+    margin-top: 85px;
+}
+
+.sevenThings h1 {
+    width: 420px;
+    margin-left: 335px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #090B19;
+}
+
+.sevenThings p {
+    margin-left: 335px;
+    margin-top: 20px;
+    width: 432px;
+    height: 52px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #6E7488;
+}
+
+.boss h1 {
+    position: absolute;
+    margin-left: 335px;
     margin-top: 80px;
     font-family: 'Open Sans';
     font-size: 16px;
@@ -1413,4 +1457,192 @@ a {
     line-height: 25px;
     text-align: left;
     color: #6E7488;
+}
+
+.boss p {
+    position: absolute;
+    margin-left: 660px;
+    margin-top: 80px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #6E7488;
+}
+
+.worstAdvice img {
+    width: 440px;
+    height: 210px;
+    display: flex;
+    margin-left: 758px;
+    margin-top: -315px;
+}
+
+.worstAdvice h1 {
+    margin-top: 30px;
+    margin-left: 775px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #090B19;
+}
+
+.worstAdvice p {
+    margin-left: 775px;
+    margin-top: 20px;
+    width: 432px;
+    height: 52px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #6E7488;
+}
+
+.design h1 {
+    position: absolute;
+    margin-left: 775px;
+    margin-top: 98px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #6E7488;
+}
+
+.design p {
+    position: absolute;
+    margin-left: 1110px;
+    margin-top: 98px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    color: #6E7488;
+}
+
+.nside {
+    background-color: #090B19;
+    width: 100%;
+    height: 800px;
+    margin-top: 300px;
+}
+
+.nside h1 {
+    padding-top: 100px;
+    margin-left: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    font-size: 48px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.nside h2 {
+    margin-top: 60px;
+    margin-left: 50px;
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 18px;
+    color: white;
+}
+
+.nside p {
+    margin-top: 20px;
+    margin-left: 50px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    color: white;
+    width: 390px;
+}
+
+.navigation h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 4px;
+    margin-top: -576px;
+    margin-left: 550px;
+}
+
+.navigation p {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -1px;
+    text-align: left;
+    margin-left: 550px;
+    padding: 30px;
+}
+
+.follow h1 {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 4px;
+    text-align: left;
+    color: white;
+    margin-left: 860px;
+    margin-top: -290px;
+}
+
+.follow p {
+    color: white;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.47px;
+    text-align: left;
+    margin-left: 910px;
+    padding: 30px;
+}
+
+.circule {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+
+}
+
+.circleInstagram {
+    margin-top: 50px;
+    width: 28px;
+    height: 28px;
+    background-color: white;
+    border-radius: 150px;
+}
+
+.circleFacebook {
+    margin-top: 50px;
+    width: 28px;
+    height: 28px;
+    background-color: white;
+    border-radius: 150px;
+}
+
+.circleLinkedin {
+    margin-top: 50px;
+    width: 28px;
+    height: 28px;
+    background-color: white;
+    border-radius: 150px;
+}
+
+.circleYoutube {
+    margin-top: 50px;
+    width: 28px;
+    height: 28px;
+    background-color: white;
+    border-radius: 150px;
 }

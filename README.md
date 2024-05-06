@@ -10,3 +10,7 @@
 ![image](https://github.com/beatrizveloso/interior-design/assets/156534028/79fe84f2-2c83-4950-b74c-c75fc5f2303c)
 ![image](https://github.com/beatrizveloso/interior-design/assets/156534028/33353e4e-addb-4051-a080-e4e8b59a56cc)
 ![image](https://github.com/beatrizveloso/interior-design/assets/156534028/db999742-4d65-4f53-a945-024109f62c90)
+![image](https://github.com/marianicacio/interior-design/assets/156533948/1d389dd9-219d-4121-84d2-aa7021993c92)
+![image](https://github.com/marianicacio/interior-design/assets/156533948/d1a935ec-105b-41cb-a4c4-ed740f6e9218)
+![image](https://github.com/marianicacio/interior-design/assets/156533948/20fa95d6-6597-4a8a-9e1d-ec7315356a31)
+![image](https://github.com/marianicacio/interior-design/assets/156533948/3762acdc-c289-42da-801d-c0ec0591cebe)

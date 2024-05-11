@@ -1659,7 +1659,7 @@ a {
     border-radius: 150px;
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 380px) {
 
     .logo {
         width: 386px;
@@ -1730,8 +1730,8 @@ a {
 
     .services p {
         position: absolute;
-        top: 1125px;
-        padding-left: 40px;
+        top: 1145px;
+        padding-left: 50px;
     }
     
     .services button {
@@ -1740,60 +1740,118 @@ a {
 
     .lineUp h1 {
         font-size: 36px;
-        padding-left: 40px;
+        padding-left: 50px;
         margin-top: -200px;
     }
     
     .lineUp {
-        display: flex;
-        justify-content: space-between;
         margin-right: 24px;
     }
     
     .space {
         margin-top: -100px;
-        margin-left: 40px;
+        margin-left: 50px;
     }
 
     .space h1 {
         margin-top: 50px;
-        left: -35px;
+        left: -25px;
     }
     
     .space p {
-        margin-top: 280px;
-        left: 0px;
+        margin-top: 310px;
+        left: 10px;
         line-height: 26px;
     }
 
     .furniture {
         margin-top: 250px;
-        margin-left: 40px;
+        margin-left: 50px;
     }
     
     .furniture h1 {
         margin-top: 50px;
-        left: -35px;
+        left: -25px;
     }
     
     .furniture p {
-        margin-top: 590px;
-        left: 0px;
+        margin-top: 620px;
+        left: 10px;
     }
 
     .layouts {
-        margin-left: 40px;
+        margin-left: 50px;
         margin-top: 240px;
     }
     
     .layouts h1 {
         margin-top: 50px;
-        left: -35px;
+        left: -25px;
     }
     
     .layouts p {
-        margin-top: 890px;
-        left: 0px;
+        margin-top: 910px;
+        left: 10px;
+    }
+
+    .about-nside {
+        width: 100%;
+        height: 660px;
+        background-image: url(/img/corre.svg);
+        margin-top: 330px;
+    }
+    
+
+
+    .about-nside p {
+        top: 1980px;
+        left: 120px;
+    }
+    
+    .about-nside h1 {
+        position: absolute;
+        top: 1700px;
+        left: 120px;
+        color: white;
+        font-size: 48px;
+        font-weight: 600;
+    }
+    
+    .about-nside h2 {
+        position: absolute;
+        top: 1972px;
+        left: 120px;
+        color: white;
+        letter-spacing: 3px;
+        font-weight: 300;
+        font-size: 14px;
+    }
+    
+    .about-nside img {
+        position: absolute;
+        top: 1970px;
+        left: 90px;
+        color: white;
+        letter-spacing: 3px;
+        font-weight: 300;
+        font-size: 14px;
+    }
+    
+    .circle-play {
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        background-color: transparent;
+        border: 1px solid white;
+        position: absolute;
+        top: 2090px;
+        left: 120px;
+    }
+    
+    .circle-play img {
+        position: absolute;
+        top: 38px;
+        left: 38px;
     }
     
 }

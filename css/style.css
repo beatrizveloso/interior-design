@@ -66,7 +66,7 @@ a {
 
 .text h1 {
     position: absolute;
-    top: 145px;
+    top: 138px;
     left: 75px;
     color: white;
     font-size: 60px;
@@ -1659,7 +1659,7 @@ a {
     border-radius: 150px;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 390px) {
 
     .logo {
         width: 386px;
@@ -1670,7 +1670,7 @@ a {
     }
 
     .logo img {
-        margin-left: 195px;
+        margin-left: 155px;
         width: 6%;
     }
 
@@ -1679,34 +1679,32 @@ a {
         margin: 20px;
     }
 
+    .text h1 {
+        font-size: 52px;
+    }
+
     .text button {
         position: absolute;
-        top: 450px;
+        top: 410px;
         left: 74px;
         font-size: 10px;
     }
 
     .feature {
         position: absolute;
-        top: 550px;
+        top: 490px;
         width: 75px;
         height: 150px;
     }
 
     .white-square {
-        width: 346px;
-        height: 120px;
-        background-color: white;
-        position: absolute;
-        top: 550px;
-        left: 75px;
+        top: 490px;
     }
 
     .square-corporate {
         width: 280px;
         height: 460px;
-        position: absolute;
-        top: 700px;
+        top: 640px;
         left: 75px;
     }
 

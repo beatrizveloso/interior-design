@@ -11,14 +11,15 @@ body {
     font-family: "Inter", sans-serif;
 }
 
-.home img {
-    width: 100%;
-}
 
 header {
     position: absolute;
     width: 100%;
     display: flex;
+}
+
+picture img{
+    width: 100%;
 }
 
 .logo {
@@ -1658,5 +1659,79 @@ a {
     border-radius: 150px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 450px) {
+
+    .logo {
+        width: 386px;
+        height: 54px;
+        margin-right: 60px;
+        margin-left: 55px;
+        display: flex;
+    }
+
+    .logo img {
+        margin-left: 195px;
+        width: 6%;
+    }
+
+    li {
+        display: none;
+        margin: 20px;
+    }
+
+    .text button {
+        position: absolute;
+        top: 450px;
+        left: 74px;
+        font-size: 10px;
+    }
+
+    .feature {
+        position: absolute;
+        top: 550px;
+        width: 75px;
+        height: 150px;
+    }
+
+    .white-square {
+        width: 346px;
+        height: 120px;
+        background-color: white;
+        position: absolute;
+        top: 550px;
+        left: 75px;
+    }
+
+    .square-corporate {
+        width: 280px;
+        height: 460px;
+        position: absolute;
+        top: 700px;
+        left: 75px;
+    }
+
+    .square-corporate p {
+        top: 25px;
+    }
+
+    .square-corporate img {
+        margin-top: 22%;
+        padding-right: 60px;
+        padding-left: 90px;
+    }
+
+    .square-corporate hr {
+        display: none;
+    }
+
+    .services {
+        margin-top: 900px;
+        width: 100%;
+        height: 1100px;
+    }
+
+    .services p {
+        position: absolute;
+        top: 1400px;
+    }
 }

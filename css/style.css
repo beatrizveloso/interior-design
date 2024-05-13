@@ -11,14 +11,15 @@ body {
     font-family: "Inter", sans-serif;
 }
 
-.home img {
-    width: 100%;
-}
 
 header {
     position: absolute;
     width: 100%;
     display: flex;
+}
+
+picture img{
+    width: 100%;
 }
 
 .logo {
@@ -65,7 +66,7 @@ a {
 
 .text h1 {
     position: absolute;
-    top: 145px;
+    top: 130px;
     left: 75px;
     color: white;
     font-size: 60px;
@@ -1656,4 +1657,201 @@ a {
     height: 28px;
     background-color: white;
     border-radius: 150px;
+}
+
+@media screen and (max-width: 380px) {
+
+    .logo {
+        width: 386px;
+        height: 54px;
+        margin-right: 60px;
+        margin-left: 55px;
+        display: flex;
+    }
+
+    .logo img {
+        margin-left: 145px;
+        width: 6%;
+    }
+
+    li {
+        display: none;
+        margin: 20px;
+    }
+
+    .text h1 {
+        font-size: 52px;
+    }
+
+    .text button {
+        position: absolute;
+        top: 390px;
+        left: 74px;
+        font-size: 10px;
+    }
+
+    .feature {
+        position: absolute;
+        top: 475px;
+        width: 75px;
+        height: 150px;
+    }
+
+    .white-square {
+        top: 475px;
+    }
+
+    .square-corporate {
+        width: 260px;
+        height: 460px;
+        top: 625px;
+        left: 75px;
+    }
+
+    .square-corporate p {
+        top: 25px;
+    }
+
+    .square-corporate img {
+        margin-top: 22%;
+        padding-right: 60px;
+        padding-left: 70px;
+    }
+
+    .square-corporate hr {
+        display: none;
+    }
+
+    .services {
+        margin-top: 900px;
+        width: 100%;
+        height: 480px;
+    }
+
+    .services p {
+        position: absolute;
+        top: 1145px;
+        padding-left: 50px;
+    }
+    
+    .services button {
+        display: none;
+    }
+
+    .lineUp h1 {
+        font-size: 36px;
+        padding-left: 50px;
+        margin-top: -200px;
+    }
+    
+    .lineUp {
+        margin-right: 24px;
+    }
+    
+    .space {
+        margin-top: -100px;
+        margin-left: 50px;
+    }
+
+    .space h1 {
+        margin-top: 50px;
+        left: -25px;
+    }
+    
+    .space p {
+        margin-top: 310px;
+        left: 10px;
+        line-height: 26px;
+    }
+
+    .furniture {
+        margin-top: 250px;
+        margin-left: 50px;
+    }
+    
+    .furniture h1 {
+        margin-top: 50px;
+        left: -25px;
+    }
+    
+    .furniture p {
+        margin-top: 620px;
+        left: 10px;
+    }
+
+    .layouts {
+        margin-left: 50px;
+        margin-top: 240px;
+    }
+    
+    .layouts h1 {
+        margin-top: 50px;
+        left: -25px;
+    }
+    
+    .layouts p {
+        margin-top: 910px;
+        left: 10px;
+    }
+
+    .about-nside {
+        width: 100%;
+        height: 660px;
+        background-image: url(/img/corre.svg);
+        margin-top: 330px;
+    }
+    
+
+
+    .about-nside p {
+        top: 1980px;
+        left: 120px;
+    }
+    
+    .about-nside h1 {
+        position: absolute;
+        top: 1700px;
+        left: 120px;
+        color: white;
+        font-size: 48px;
+        font-weight: 600;
+    }
+    
+    .about-nside h2 {
+        position: absolute;
+        top: 1972px;
+        left: 120px;
+        color: white;
+        letter-spacing: 3px;
+        font-weight: 300;
+        font-size: 14px;
+    }
+    
+    .about-nside img {
+        position: absolute;
+        top: 1970px;
+        left: 90px;
+        color: white;
+        letter-spacing: 3px;
+        font-weight: 300;
+        font-size: 14px;
+    }
+    
+    .circle-play {
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        background-color: transparent;
+        border: 1px solid white;
+        position: absolute;
+        top: 2090px;
+        left: 120px;
+    }
+    
+    .circle-play img {
+        position: absolute;
+        top: 38px;
+        left: 38px;
+    }
+    
 }

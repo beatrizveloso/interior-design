@@ -350,9 +350,8 @@ a {
 }
 
 .about-nside p {
-    position: absolute;
-    top: 1580px;
-    left: 120px;
+    padding-top: 80px;
+    padding-left: 120px;
     color: white;
     letter-spacing: 3px;
     font-weight: 300;
@@ -360,18 +359,16 @@ a {
 }
 
 .about-nside h1 {
-    position: absolute;
-    top: 1700px;
-    left: 120px;
+    padding-top: 70px;
+    padding-left: 110px;
     color: white;
     font-size: 48px;
     font-weight: 600;
 }
 
 .about-nside h2 {
-    position: absolute;
-    top: 1972px;
-    left: 120px;
+    margin-top: -20px;
+    padding-left: 120px;
     color: white;
     letter-spacing: 3px;
     font-weight: 300;
@@ -379,9 +376,8 @@ a {
 }
 
 .about-nside img {
-    position: absolute;
-    top: 1970px;
-    left: 90px;
+    padding-top: 70px;
+    padding-left: 90px;
     color: white;
     letter-spacing: 3px;
     font-weight: 300;
@@ -394,15 +390,13 @@ a {
     border-radius: 100px;
     background-color: transparent;
     border: 1px solid white;
-    position: absolute;
-    top: 2090px;
-    left: 120px;
+    margin-top: 90px;
+    margin-left: 120px;
 }
 
 .circle-play img {
-    position: absolute;
-    top: 38px;
-    left: 38px;
+    margin-top: -30px;
+    margin-left: -50px;
 }
 
 .explore-work {

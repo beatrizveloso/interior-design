@@ -11,6 +11,10 @@ body {
     font-family: "Inter", sans-serif;
 }
 
+main{
+    width: 100%;
+    height: 732px;
+}
 
 header {
     position: absolute;
@@ -54,10 +58,15 @@ a {
     font-size: 16px;
 }
 
+.text{
+    background-image: url(/img/home.svg);
+    width: 100%;
+    height: 522px;
+}
+
 .text p {
-    position: absolute;
-    top: 100px;
-    left: 80px;
+    padding-top: 100px;
+    padding-left: 80px;
     color: white;
     letter-spacing: 3px;
     font-weight: 300;
@@ -65,18 +74,16 @@ a {
 }
 
 .text h1 {
-    position: absolute;
-    top: 130px;
-    left: 75px;
+    padding-top: 30px;
+    padding-left: 75px;
     color: white;
     font-size: 60px;
     font-weight: 600;
 }
 
 .text button {
-    position: absolute;
-    top: 318px;
-    left: 74px;
+    margin-top: 30px;
+    margin-left: 74px;
     width: 200px;
     height: 50px;
     background-color: transparent;
@@ -84,12 +91,12 @@ a {
     color: white;
     letter-spacing: 3px;
     border-radius: 50px;
-    font-size: 8px;
+    font-size: 11px;
 }
 
 .white-square {
     width: 346px;
-    height: 120px;
+    height: 110px;
     background-color: white;
     position: absolute;
     top: 412px;
@@ -98,8 +105,8 @@ a {
 
 .white-square p {
     position: absolute;
-    top: 36px;
-    left: 30px;
+    top: -65px;
+    left: -50px;
     font-size: 10px;
     color: black;
     letter-spacing: 4px;
@@ -107,26 +114,23 @@ a {
 
 .white-square h1 {
     position: absolute;
-    top: 55px;
-    left: 30px;
+    top: 35px;
+    left: -45px;
     font-size: 16px;
     color: black;
-    top: 62px;
     font-weight: 800;
 }
 
 .feature {
     background-color: #F3F6FC;
-    position: absolute;
-    top: 412px;
+    margin-top: -39px;
     width: 75px;
     height: 150px;
 }
 
 .feature h1 {
-    position: absolute;
-    top: 50px;
-    left: -5px;
+    padding-top: 130px;
+    margin-left: -135px;
     transform: rotate(-90deg);
     font-size: 11px;
     color: #6E7488;
@@ -135,9 +139,10 @@ a {
 }
 
 .feature img {
+    z-index: 4;
+    padding-left: 28px;
     position: absolute;
-    top: 120px;
-    left: 28px;
+    top: 531px;
     font-size: 11px;
     font-weight: 300;
     letter-spacing: 3px;
@@ -147,16 +152,14 @@ a {
     background-color: #F3F6FC;
     width: 930px;
     height: 210px;
-    position: absolute;
-    top: 522px;
-    left: 75px;
+    margin-left: 75px;
 }
 
 .square-corporate p {
     color: #6E7488;
     position: absolute;
-    top: 52px;
-    left: 38px;
+    top: 570px;
+    left: 120px;
     font-size: 12px;
 }
 
@@ -174,20 +177,19 @@ a {
 }
 
 .circle-arrow {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     border-radius: 100px;
     background-color: transparent;
     border: 1px solid white;
-    position: absolute;
-    top: calc(50% - 100px/2 + 120px);
-    left: calc(50% - 100px/2 + 526px);
+    z-index: 7;
+    margin-left: 1030px;
 }
 
 .circle-arrow img {
-    position: absolute;
-    top: 23px;
-    left: 23px;
+    z-index: 6;
+    padding-top: 25px;
+    padding-left: 27px;
 }
 
 .services {

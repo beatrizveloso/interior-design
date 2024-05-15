@@ -406,12 +406,13 @@ a {
 }
 
 .explore-work img {
-    width: 1200px;
+    margin-left: 70px;
+    width: 1163px;
     height: 550px;
 }
 
 .explore-work p {
-    position: absolute;
+    display: flex;
     color: white;
     margin-top: -150px;
     letter-spacing: 4px;
@@ -447,7 +448,7 @@ a {
     width: 1120px;
     height: 110px;
     position: absolute;
-    margin-left: 51px;
+    margin-left: 90px;
     margin-top: -38px;
     top: 2998px;
     display: flex;

@@ -406,9 +406,9 @@ a {
 }
 
 .explore-work img {
-    margin-left: 70px;
-    width: 1163px;
-    height: 550px;
+    margin-left: 75px;
+    width: 1070px;
+    height: 489px;
 }
 
 .explore-work p {
@@ -445,10 +445,10 @@ a {
 
 .works {
     background-color: #F3F6FC;
-    width: 1120px;
+    width: 1020px;
     height: 110px;
     position: absolute;
-    margin-left: 90px;
+    margin-left: 100px;
     margin-top: -38px;
     top: 2998px;
     display: flex;
@@ -472,74 +472,92 @@ a {
 .properties {
     margin-top: 180px;
     width: 100%;
-    height: 1400px;
+    height: 1410px;
 }
 
-.all-properties img,
-.spo-properties img,
-.mic-properties img,
-.exx-properties img,
-.del-properties img,
-.dis-properties img,
-.nik-properties img,
-.met-properties img,
-.hom-properties img {
-    width: 360px;
+.align-one {
+    width: 100%;
+    height: 470px;
+    display: flex;
+}
+
+.all-properties {
+    background-image: url(/img/allstate.svg);
+    width: 350px;
     height: 350px;
+    margin-top: 50px;
+    margin-left: 82px;
 }
 
-.all-properties img {
-    position: absolute;
-    top: 3240px;
-    left: 80px;
+.spo-properties {
+    background-image: url(/img/spotify-satellite.svg);
+    width: 350px;
+    height: 352px;
 }
 
-.spo-properties img {
-    position: absolute;
-    top: 3180px;
-    left: 430px;
+.mic-properties {
+    background-image: url(/img/microsoft-office.svg);
+    width: 350px;
+    height: 350px;
+    margin-top: 50px;
+    margin-left: -1px;
 }
 
-.mic-properties img {
-    position: absolute;
-    top: 3240px;
-    left: 780px;
+.align-two {
+    width: 100%;
+    height: 470px;
+    display: flex;
 }
 
-.exx-properties img {
-    position: absolute;
-    top: 3650px;
-    left: 80px;
+.exx-properties {
+    background-image: url(/img/exxon-mobile.svg);
+    width: 350px;
+    height: 350px;
+    margin-left: 82px;
 }
 
-.del-properties img {
-    position: absolute;
-    top: 3710px;
-    left: 430px;
+.del-properties {
+    background-image: url(/img/delta-satellite.svg);
+    width: 350px;
+    height: 350px;
+    margin-top: 50px;
+    margin-left: -1px;
 }
 
-.dis-properties img {
-    position: absolute;
-    top: 3650px;
-    left: 780px;
+.dis-properties {
+    background-image: url(/img/disney-employee.svg);
+    width: 350px;
+    height: 350px;
+    margin-left: -1px;
 }
 
-.nik-properties img {
-    position: absolute;
-    top: 4200px;
-    left: 80px;
+.align-three {
+    width: 100%;
+    height: 470px;
+    display: flex;
 }
 
-.met-properties img {
-    position: absolute;
-    top: 4140px;
-    left: 430px;
+.nik-properties {
+    background-image: url(/img/nike-corporate.svg);
+    width: 350px;
+    height: 350px;
+    margin-top: 60px;
+    margin-left: 82px;
 }
 
-.hom-properties img {
-    position: absolute;
-    top: 4200px;
-    left: 780px;
+.met-properties {
+    background-image: url(/img/metlife-corporate.svg);
+    width: 350px;
+    height: 350px;
+    margin-left: -1px;
+}
+
+.hom-properties{
+    background-image: url(/img/home-depot.svg);
+    width: 350px;
+    height: 350px;
+    margin-top: 60px;
+    margin-left: -1px;
 }
 
 .all-properties p,
@@ -557,58 +575,19 @@ a {
     font-size: 10px;
 }
 
-.all-properties p {
-    position: absolute;
-    top: 3270px;
-    left: 190px;
-}
-
-.spo-properties p {
-    position: absolute;
-    top: 3210px;
-    left: 520px;
-}
-
-.mic-properties p {
-    position: absolute;
-    top: 3270px;
-    left: 890px;
-}
-
-.exx-properties p {
-    position: absolute;
-    top: 3680px;
-    left: 140px;
-}
-
-.del-properties p {
-    position: absolute;
-    top: 3740px;
-    left: 490px;
-}
-
-.dis-properties p {
-    position: absolute;
-    top: 3680px;
-    left: 840px;
-}
-
-.nik-properties p {
-    position: absolute;
-    top: 4230px;
-    left: 150px;
-}
-
-.met-properties p {
-    position: absolute;
-    top: 4170px;
-    left: 550px;
-}
-
+.all-properties p,
+.spo-properties p,
+.mic-properties p,
+.exx-properties p,
+.del-properties p,
+.dis-properties p,
+.nik-properties p,
+.met-properties p,
 .hom-properties p {
-    position: absolute;
-    top: 4230px;
-    left: 870px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
 }
 
 .all-properties h1,
@@ -625,58 +604,19 @@ a {
     font-weight: 600;
 }
 
-.all-properties h1 {
-    position: absolute;
-    top: 3290px;
-    left: 130px;
-}
-
-.spo-properties h1 {
-    position: absolute;
-    top: 3230px;
-    left: 510px;
-}
-
-.mic-properties h1 {
-    position: absolute;
-    top: 3290px;
-    left: 840px;
-}
-
-.exx-properties h1 {
-    position: absolute;
-    top: 3700px;
-    left: 150px;
-}
-
-.del-properties h1 {
-    position: absolute;
-    top: 3760px;
-    left: 510px;
-}
-
-.dis-properties h1 {
-    position: absolute;
-    top: 3700px;
-    left: 860px;
-}
-
-.nik-properties h1 {
-    position: absolute;
-    top: 4260px;
-    left: 150px;
-}
-
-.met-properties h1 {
-    position: absolute;
-    top: 4190px;
-    left: 490px;
-}
-
-.hom-properties h1 {
-    position: absolute;
-    top: 4260px;
-    left: 830px;
+.all-properties h1,
+.spo-properties h1,
+.mic-properties h1,
+.exx-properties h1,
+.del-properties h1,
+.dis-properties h1,
+.nik-properties h1,
+.met-properties h1,
+.hom-properties h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
 }
 
 .all-properties h2,
@@ -694,58 +634,19 @@ a {
     font-size: 12px;
 }
 
-.all-properties h2 {
-    position: absolute;
-    top: 3540px;
-    left: 230px;
-}
-
-.spo-properties h2 {
-    position: absolute;
-    top: 3480px;
-    left: 580px;
-}
-
-.mic-properties h2 {
-    position: absolute;
-    top: 3540px;
-    left: 930px;
-}
-
-.exx-properties h2 {
-    position: absolute;
-    top: 3960px;
-    left: 230px;
-}
-
-.del-properties h2 {
-    position: absolute;
-    top: 4010px;
-    left: 580px;
-}
-
-.dis-properties h2 {
-    position: absolute;
-    top: 3960px;
-    left: 930px;
-}
-
-.nik-properties h2 {
-    position: absolute;
-    top: 4510px;
-    left: 230px;
-}
-
-.met-properties h2 {
-    position: absolute;
-    top: 4440px;
-    left: 580px;
-}
-
+.all-properties h2,
+.spo-properties h2,
+.mic-properties h2,
+.exx-properties h2,
+.del-properties h2,
+.dis-properties h2,
+.nik-properties h2,
+.met-properties h2,
 .hom-properties h2 {
-    position: absolute;
-    top: 4510px;
-    left: 930px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 210px; 
 }
 
 .samantha {

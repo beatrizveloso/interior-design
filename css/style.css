@@ -731,6 +731,7 @@ a {
     width: 100%;
     height: 650px;
     margin-top: 90px;
+
 }
 
 .our-team p {
@@ -742,7 +743,7 @@ a {
 .behind {
     display: flex;
     justify-content: space-between;
-    margin-right: 74px;
+    margin-right: 75px;
 }
 
 .behind h1 {
@@ -750,7 +751,6 @@ a {
     padding-left: 74px;
     padding-top: 20px;
     display: flex;
-    justify-content: space-between;
 }
 
 .behind button {
@@ -765,12 +765,32 @@ a {
     letter-spacing: 3px;
 }
 
-.jessica img,
-.ryan img,
-.carrie img {
-    width: 355px;
-    height: 355px;
+.align-behind{
+    display: flex;
 }
+
+.jessica {
+    width: 350px;
+    height: 350px;
+    background-image: url(/img/jessica.svg);
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.ryan {
+    width: 350px;
+    height: 350px;
+    background-image: url(/img/ryan.svg);
+    margin-top: 100px;
+}
+
+.carrie {
+    width: 350px;
+    height: 350px;
+    background-image: url(/img/carrie-vath.svg);
+    margin-top: 150px;
+}
+
 
 .jessica h1,
 .ryan h1,
@@ -778,6 +798,8 @@ a {
     color: white;
     font-size: 18px;
     font-weight: 600;
+    padding-left: 20px;
+    padding-top: 30px;
 }
 
 .jessica p,
@@ -787,238 +809,41 @@ a {
     letter-spacing: 4px;
     font-weight: 400;
     font-size: 10px;
-}
-
-.jessica img {
-    position: relative;
-    top: 38px;
-    left: 80px;
-}
-
-.jessica h1 {
-    position: absolute;
-    top: 5380px;
-    left: 98px;
-}
-
-.jessica p {
-    position: absolute;
-    top: 5380px;
-    left: 305px;
-}
-
-.ryan img {
-    position: relative;
-    top: -257px;
-    left: 434px;
-}
-
-.ryan h1 {
-    position: absolute;
-    top: 5450px;
-    left: 460px;
-}
-
-.ryan p {
-    position: absolute;
-    top: 5450px;
-    left: 655px;
-}
-
-.carrie img {
-    position: relative;
-    top: -190px;
-    left: 428px;
-}
-
-.carrie h1 {
-    position: absolute;
-    top: 5510px;
-    left: 810px;
-}
-
-.carrie p {
-    position: absolute;
-    top: 5510px;
-    left: 1005px;
+    padding-top: 40px;
+    padding-left: 170px;
 }
 
 .circle-insta,
 .circle-face,
 .circle-link,
-.circle-yout,
-.circle-insta-ryan,
-.circle-face-ryan,
-.circle-link-ryan,
-.circle-yout-ryan,
-.circle-insta-car,
-.circle-face-car,
-.circle-link-car,
-.circle-yout-car {
+.circle-yout {
     width: 28px;
     height: 28px;
     background-color: white;
     border-radius: 150px;
+    margin-top: 250px;
+    margin-left: 10px;
 }
 
-.circle-insta {
-    position: absolute;
-    top: 5650px;
-    left: 190px;
-}
-
-.circle-face {
-    position: absolute;
-    top: 5650px;
-    left: 226px;
-}
-
-.circle-link {
-    position: absolute;
-    top: 5650px;
-    left: 260px;
-}
-
-.circle-yout {
-    position: absolute;
-    top: 5650px;
-    left: 295px;
-}
-
-.circle-insta-ryan {
-    position: absolute;
-    top: 5720px;
-    left: 545px;
-}
-
-.circle-face-ryan {
-    position: absolute;
-    top: 5720px;
-    left: 580px;
-}
-
-.circle-link-ryan {
-    position: absolute;
-    top: 5720px;
-    left: 615px;
-}
-
-.circle-yout-ryan {
-    position: absolute;
-    top: 5720px;
-    left: 650px;
-}
-
-.circle-insta-car {
-    position: absolute;
-    top: 5780px;
-    left: 900px;
-}
-
-.circle-face-car {
-    position: absolute;
-    top: 5780px;
-    left: 935px;
-}
-
-.circle-link-car {
-    position: absolute;
-    top: 5780px;
-    left: 970px;
-}
-
-.circle-yout-car {
-    position: absolute;
-    top: 5780px;
-    left: 1005px;
+.align-circles{
+    display: flex;
+    align-items:center;
+    justify-content: center;
 }
 
 .circle-insta img,
 .circle-face img,
 .circle-link img,
-.circle-yout img,
-.circle-insta-ryan img,
-.circle-face-ryan img,
-.circle-link-ryan img,
-.circle-yout-ryan img,
-.circle-insta-car img,
-.circle-face-car img,
-.circle-link-car img,
-.circle-yout-car img {
+.circle-yout img{
     width: 15px;
     height: 15px;
+    margin-top: 6px;
+    margin-left: 6px;
 }
 
-.circle-insta img {
-    position: absolute;
-    top: 6px;
-    left: 6px;
-}
-
-.circle-face img {
-    position: absolute;
-    top: 6px;
-    left: 6px;
-}
-
-.circle-link img {
-    position: absolute;
-    top: 6px;
-    left: 6px;
-}
-
-.circle-yout img {
-    position: absolute;
-    top: 6px;
-    left: 6px;
-}
-
-.circle-insta-ryan img {
-    position: absolute;
-    top: 6px;
-    left: 6px;
-}
-
-.circle-face-ryan img {
-    position: absolute;
-    top: 6px;
-    left: 6px;
-}
-
-.circle-link-ryan img {
-    position: absolute;
-    top: 6px;
-    left: 6px;
-}
-
-.circle-yout-ryan img {
-    position: absolute;
-    top: 6px;
-    left: 6px;
-}
-
-.circle-insta-car img {
-    position: absolute;
-    top: 6px;
-    left: 6px;
-}
-
-.circle-face-car img {
-    position: absolute;
-    top: 6px;
-    left: 6px;
-}
-
-.circle-link-car img {
-    position: absolute;
-    top: 6px;
-    left: 6px;
-}
-
-.circle-yout-car img {
-    position: absolute;
-    top: 6px;
-    left: 6px;
+.align-h1{
+    display: flex;
+    
 }
 
 .banner {

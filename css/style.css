@@ -141,8 +141,8 @@ a {
 .feature img {
     z-index: 4;
     padding-left: 28px;
-    position: absolute;
-    top: 531px;
+    display: flex;
+    margin-top: -20px;
     font-size: 11px;
     font-weight: 300;
     letter-spacing: 3px;
@@ -157,9 +157,10 @@ a {
 
 .square-corporate p {
     color: #6E7488;
-    position: absolute;
-    top: 570px;
-    left: 120px;
+    display: flex;
+    position: relative;
+    top: 68px;
+    left: 50px;
     font-size: 12px;
 }
 
@@ -789,8 +790,8 @@ a {
 }
 
 .jessica img {
-    position: absolute;
-    top: 5350px;
+    position: relative;
+    top: 38px;
     left: 80px;
 }
 
@@ -807,8 +808,8 @@ a {
 }
 
 .ryan img {
-    position: absolute;
-    top: 5420px;
+    position: relative;
+    top: -257px;
     left: 434px;
 }
 
@@ -825,9 +826,9 @@ a {
 }
 
 .carrie img {
-    position: absolute;
-    top: 5480px;
-    left: 787px;
+    position: relative;
+    top: -190px;
+    left: 428px;
 }
 
 .carrie h1 {

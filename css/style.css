@@ -408,22 +408,22 @@ a {
     margin-left: -50px;
 }
 
+.picture img {
+    margin-left: 75px;
+    width: 1070px;
+    height: 489px;
+}
+
 .explore-work {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.explore-work img {
-    margin-left: 75px;
-    width: 1070px;
-    height: 489px;
-}
-
 .explore-work p {
     display: flex;
     color: white;
-    margin-top: -150px;
+    margin-top: -600px;
     letter-spacing: 4px;
     font-weight: 400;
     font-size: 12px;
@@ -431,7 +431,7 @@ a {
 
 .explore-work h1 {
     position: absolute;
-    margin-top: -40px;
+    margin-top: -450px;
     color: white;
     font-size: 48px;
     font-weight: 600;
@@ -439,7 +439,7 @@ a {
 
 .explore-work button {
     position: absolute;
-    margin-top: 150px;
+    margin-top: -250px;
     width: 200px;
     height: 50px;
     font-family: "Open Sans", sans-serif;
@@ -1534,30 +1534,46 @@ a {
         margin-left: 5px;
     }
 
-    .works {
-        background-color: #F3F6FC;
-        width: 1020px;
-        height: 110px;
-        position: absolute;
-        margin-left: 100px;
-        margin-top: 20px;
-        top: 2998px;
+    .picture img {
         display: flex;
-        align-items: center;
-        justify-content: center;
+        margin-left: -300px;
+        margin-top: 150px;
+        width: 990px;
+        height: 413px;
+    }
+
+    .explore-work p {
+        display: flex;
+        margin-top: -700px;
+    }
+
+    .explore-work h1 {
+        position: absolute;
+        margin-top: -450px;
+        margin-left: 2.5px;
+        font-size: 46px;
+        display: flex;
+        text-align: center;
+    }
+
+    .explore-work button {
+        position: absolute;
+        margin-top: -200px;
+    }
+
+    .works {
+        position: absolute;
+        margin-left: 30px;
+        margin-top: 550px;
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        height: 240px;
+
     }
     
     .works p {
-        width: 350px;
-        height: 15px;
-        font-size: 12px;
-        color: #090B19;
-        font-weight: 400;
-        line-height: 20px;
-        letter-spacing: 4px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        padding: 40px;
     }
     
 }

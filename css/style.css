@@ -184,12 +184,12 @@ a {
     border-radius: 100px;
     background-color: transparent;
     border: 1px solid white;
-    z-index: 7;
-    margin-left: 1030px;
+    position: absolute;
+    top: 400px;
+    left: 1030px;
 }
 
 .circle-arrow img {
-    z-index: 6;
     padding-top: 25px;
     padding-left: 27px;
 }
@@ -232,13 +232,25 @@ a {
     margin-right: 74px;
 }
 
+.align-space{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.space-w,
+.furniture-w,
+.layouts-w {
+    width: 300px;
+    height: 300px;
+}
+
 .space {
     width: 60px;
     height: 60px;
     background: #F3F6FC;
     border-radius: 60px;
-    margin-top: 150px;
-    margin-left: 95px;
 }
 
 .space img {
@@ -254,8 +266,7 @@ a {
     font-weight: 700;
     letter-spacing: -0.72px;
     line-height: 30px;
-    margin-top: 100px;
-    left: 15px;
+    margin-top: 70px;
 }
 
 .space p {
@@ -275,8 +286,6 @@ a {
     height: 60px;
     background: #F3F6FC;
     border-radius: 60px;
-    margin-left: 470px;
-    margin-top: -60px;
 }
 
 .furniture img {
@@ -292,7 +301,7 @@ a {
     line-height: 30px;
     display: flex;
     width: 200px;
-    margin-top: 100px;
+    margin-top: 70px;
     left: 390px;
 }
 
@@ -312,8 +321,6 @@ a {
     height: 60px;
     background: #F3F6FC;
     border-radius: 60px;
-    margin-left: 870px;
-    margin-top: -60px;
 }
 
 .layouts img {
@@ -329,7 +336,7 @@ a {
     letter-spacing: -0.72px;
     line-height: 30px;
     display: flex;
-    margin-top: 100px;
+    margin-top: 70px;
     left: 790px;
 }
 
@@ -1427,6 +1434,16 @@ a {
         top: 475px;
     }
 
+    .white-square p {
+        position: absolute;
+        top: 50px;
+    }
+
+    .white-square h1 {
+        position: absolute;
+        top: 75px;
+    }
+
     .square-corporate {
         width: 260px;
         height: 460px;
@@ -1435,7 +1452,7 @@ a {
     }
 
     .square-corporate p {
-        top: 25px;
+        top: 35px;
     }
 
     .square-corporate img {
@@ -1449,135 +1466,44 @@ a {
     }
 
     .services {
-        margin-top: 900px;
+        margin-top: 400px;
         width: 100%;
-        height: 480px;
-    }
-
-    .services p {
-        position: absolute;
-        top: 1145px;
-        padding-left: 50px;
+        height: 1100px;
     }
 
     .services button {
         display: none;
     }
 
-    .lineUp h1 {
-        font-size: 36px;
-        padding-left: 50px;
-        margin-top: -200px;
-    }
-
     .lineUp {
-        margin-right: 24px;
+        margin-right: 74px;
+    }
+    
+    .lineUp h1 {
+        font-size: 35px;
+        padding-top: 15px;
     }
 
-    .space {
-        margin-top: -100px;
-        margin-left: 50px;
+    .lineUp button {
+        display: none;
     }
 
-    .space h1 {
-        margin-top: 50px;
-        left: -25px;
+    .align-space{
+        flex-direction: column;
     }
+    
 
-    .space p {
-        margin-top: 310px;
-        left: 10px;
-        line-height: 26px;
+
+
+
+
+
+        .about-nside {
+            width: 100%;
+            height: 660px;
+            background-image: url(/img/corre.svg);
+            margin-top: 330px;
+        }
+
+
     }
-
-    .furniture {
-        margin-top: 250px;
-        margin-left: 50px;
-    }
-
-    .furniture h1 {
-        margin-top: 50px;
-        left: -25px;
-    }
-
-    .furniture p {
-        margin-top: 620px;
-        left: 10px;
-    }
-
-    .layouts {
-        margin-left: 50px;
-        margin-top: 240px;
-    }
-
-    .layouts h1 {
-        margin-top: 50px;
-        left: -25px;
-    }
-
-    .layouts p {
-        margin-top: 910px;
-        left: 10px;
-    }
-
-    .about-nside {
-        width: 100%;
-        height: 660px;
-        background-image: url(/img/corre.svg);
-        margin-top: 330px;
-    }
-
-
-
-    .about-nside p {
-        top: 1980px;
-        left: 120px;
-    }
-
-    .about-nside h1 {
-        position: absolute;
-        top: 1700px;
-        left: 120px;
-        color: white;
-        font-size: 48px;
-        font-weight: 600;
-    }
-
-    .about-nside h2 {
-        position: absolute;
-        top: 1972px;
-        left: 120px;
-        color: white;
-        letter-spacing: 3px;
-        font-weight: 300;
-        font-size: 14px;
-    }
-
-    .about-nside img {
-        position: absolute;
-        top: 1970px;
-        left: 90px;
-        color: white;
-        letter-spacing: 3px;
-        font-weight: 300;
-        font-size: 14px;
-    }
-
-    .circle-play {
-        width: 100px;
-        height: 100px;
-        border-radius: 100px;
-        background-color: transparent;
-        border: 1px solid white;
-        position: absolute;
-        top: 2090px;
-        left: 120px;
-    }
-
-    .circle-play img {
-        position: absolute;
-        top: 38px;
-        left: 38px;
-    }
-
-}

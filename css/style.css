@@ -11,7 +11,7 @@ body {
     font-family: "Inter", sans-serif;
 }
 
-main{
+main {
     width: 100%;
     height: 732px;
 }
@@ -22,7 +22,7 @@ header {
     display: flex;
 }
 
-picture img{
+picture img {
     width: 100%;
 }
 
@@ -58,15 +58,10 @@ a {
     font-size: 16px;
 }
 
-.text{
-    background-image: url(/img/home.svg);
-    width: 100%;
-    height: 522px;
-}
-
 .text p {
-    padding-top: 100px;
-    padding-left: 80px;
+    position: absolute;
+    top: 100px;
+    left: 80px;
     color: white;
     letter-spacing: 3px;
     font-weight: 300;
@@ -74,16 +69,18 @@ a {
 }
 
 .text h1 {
-    padding-top: 30px;
-    padding-left: 75px;
+    position: absolute;
+    top: 140px;
+    left: 75px;
     color: white;
     font-size: 60px;
     font-weight: 600;
 }
 
 .text button {
-    margin-top: 30px;
-    margin-left: 74px;
+    position: absolute;
+    top: 320px;
+    left: 75px;
     width: 200px;
     height: 50px;
     background-color: transparent;
@@ -105,8 +102,8 @@ a {
 
 .white-square p {
     position: absolute;
-    top: -65px;
-    left: -50px;
+    top: 35px;
+    left: 50px;
     font-size: 10px;
     color: black;
     letter-spacing: 4px;
@@ -114,8 +111,8 @@ a {
 
 .white-square h1 {
     position: absolute;
-    top: 35px;
-    left: -45px;
+    top: 60px;
+    left: 48px;
     font-size: 16px;
     color: black;
     font-weight: 800;
@@ -123,14 +120,16 @@ a {
 
 .feature {
     background-color: #F3F6FC;
-    margin-top: -39px;
     width: 75px;
     height: 150px;
+    position: absolute;
+    top: 412px;
 }
 
 .feature h1 {
-    padding-top: 130px;
-    margin-left: -135px;
+    position: absolute;
+    top: 60px;
+    left: -5px;
     transform: rotate(-90deg);
     font-size: 11px;
     color: #6E7488;
@@ -139,10 +138,10 @@ a {
 }
 
 .feature img {
-    z-index: 4;
-    padding-left: 28px;
+    position: absolute;
+    top: 120px;
+    left: 26px;
     display: flex;
-    margin-top: -20px;
     font-size: 11px;
     font-weight: 300;
     letter-spacing: 3px;
@@ -152,7 +151,9 @@ a {
     background-color: #F3F6FC;
     width: 930px;
     height: 210px;
-    margin-left: 75px;
+    position: absolute;
+    top: 522px;
+    left: 75px;
 }
 
 .square-corporate p {
@@ -194,7 +195,7 @@ a {
 }
 
 .services {
-    margin-top: 150px;
+    margin-top: 120px;
     width: 100%;
     height: 300px;
 }
@@ -553,7 +554,7 @@ a {
     margin-left: -1px;
 }
 
-.hom-properties{
+.hom-properties {
     background-image: url(/img/home-depot.svg);
     width: 350px;
     height: 350px;
@@ -613,7 +614,7 @@ a {
 .dis-properties h1,
 .nik-properties h1,
 .met-properties h1,
-.hom-properties h1{
+.hom-properties h1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -647,7 +648,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 210px; 
+    padding-top: 210px;
 }
 
 .samantha {
@@ -765,7 +766,7 @@ a {
     letter-spacing: 3px;
 }
 
-.align-behind{
+.align-behind {
     display: flex;
 }
 
@@ -825,25 +826,25 @@ a {
     margin-left: 10px;
 }
 
-.align-circles{
+.align-circles {
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
 }
 
 .circle-insta img,
 .circle-face img,
 .circle-link img,
-.circle-yout img{
+.circle-yout img {
     width: 15px;
     height: 15px;
     margin-top: 6px;
     margin-left: 6px;
 }
 
-.align-h1{
+.align-h1 {
     display: flex;
-    
+
 }
 
 .banner {
@@ -1383,7 +1384,7 @@ a {
     border-radius: 150px;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 500px) {
 
     .logo {
         width: 386px;
@@ -1404,7 +1405,8 @@ a {
     }
 
     .text h1 {
-        font-size: 52px;
+        width: 300px;
+        font-size: 48px;
     }
 
     .text button {
@@ -1457,7 +1459,7 @@ a {
         top: 1145px;
         padding-left: 50px;
     }
-    
+
     .services button {
         display: none;
     }
@@ -1467,11 +1469,11 @@ a {
         padding-left: 50px;
         margin-top: -200px;
     }
-    
+
     .lineUp {
         margin-right: 24px;
     }
-    
+
     .space {
         margin-top: -100px;
         margin-left: 50px;
@@ -1481,7 +1483,7 @@ a {
         margin-top: 50px;
         left: -25px;
     }
-    
+
     .space p {
         margin-top: 310px;
         left: 10px;
@@ -1492,12 +1494,12 @@ a {
         margin-top: 250px;
         margin-left: 50px;
     }
-    
+
     .furniture h1 {
         margin-top: 50px;
         left: -25px;
     }
-    
+
     .furniture p {
         margin-top: 620px;
         left: 10px;
@@ -1507,12 +1509,12 @@ a {
         margin-left: 50px;
         margin-top: 240px;
     }
-    
+
     .layouts h1 {
         margin-top: 50px;
         left: -25px;
     }
-    
+
     .layouts p {
         margin-top: 910px;
         left: 10px;
@@ -1524,14 +1526,14 @@ a {
         background-image: url(/img/corre.svg);
         margin-top: 330px;
     }
-    
+
 
 
     .about-nside p {
         top: 1980px;
         left: 120px;
     }
-    
+
     .about-nside h1 {
         position: absolute;
         top: 1700px;
@@ -1540,7 +1542,7 @@ a {
         font-size: 48px;
         font-weight: 600;
     }
-    
+
     .about-nside h2 {
         position: absolute;
         top: 1972px;
@@ -1550,7 +1552,7 @@ a {
         font-weight: 300;
         font-size: 14px;
     }
-    
+
     .about-nside img {
         position: absolute;
         top: 1970px;
@@ -1560,7 +1562,7 @@ a {
         font-weight: 300;
         font-size: 14px;
     }
-    
+
     .circle-play {
         width: 100px;
         height: 100px;
@@ -1571,11 +1573,11 @@ a {
         top: 2090px;
         left: 120px;
     }
-    
+
     .circle-play img {
         position: absolute;
         top: 38px;
         left: 38px;
     }
-    
+
 }

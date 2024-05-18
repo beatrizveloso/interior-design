@@ -1636,12 +1636,12 @@ a {
         position: relative;
         width: 340px;
         height: 400px;
-        margin-left: 40px;
+        margin-left: 30px;
         margin-top: 30px;
     }
 
     .previous {
-        margin-left: -30px;
+        margin-left: -40px;
         width: 200px;
         height: 70px;
         transform: rotate(-90deg);
@@ -1656,7 +1656,7 @@ a {
     }
     
     .next {
-        margin-left: -30px;
+        margin-left: -40px;
         width: 200px;
         height: 70px;
         transform: rotate(-90deg);
@@ -1674,7 +1674,7 @@ a {
         font-size: 44px;
         display: flex;
         flex-direction: column;
-        margin-left: 100px;
+        margin-left: 90px;
         margin-top: 280px;
         letter-spacing: -1.44px;
     }
@@ -1685,7 +1685,7 @@ a {
 
     .samanthaFeed {
         position: absolute;
-        margin-left: 50px;
+        margin-left: 40px;
         margin-top: 80px;
         display: flex;
     }

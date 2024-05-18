@@ -1575,5 +1575,57 @@ a {
     .works p {
         padding: 40px;
     }
+
+    .properties {
+        margin-top: 290px;
+        width: 100%;
+        height: 3650px;
+    }
     
+    .align-one {
+        height: 1150px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .all-properties {
+        margin-left: 0px;
+    }
+    
+    .spo-properties {
+        margin-top: 50px;
+    }
+    
+    .align-two {
+        height: 1250px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .exx-properties {
+        margin-left: 0px;
+    }
+    
+    .dis-properties {
+        margin-top: 50px;
+    }
+    
+    .align-three {
+        height: 1200px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .nik-properties {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    
+    .met-properties {
+        margin-top: 50px;
+    }
+
 }

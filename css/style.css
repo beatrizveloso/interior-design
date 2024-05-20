@@ -1689,5 +1689,54 @@ a {
         margin-top: 80px;
         display: flex;
     }
-    
+
+.our-team {
+    width: 100%;
+    height: 1330px;
+    margin-top: 90px;
+}
+
+.our-team-p p{
+    padding-left: 30px;
+}
+
+.behind {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px;
+}
+
+.behind h1 {
+    padding-left: 0px;
+}
+
+.behind button {
+    display: none;
+}
+
+.align-behind {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jessica {
+    margin-left: 0px;
+    margin-top: 50px;
+}
+
+.ryan {
+    margin-top: 50px;
+}
+
+.carrie {
+    margin-top: 50px;
+}
+
+.banner {
+    height: 150px;
+}
+
 }

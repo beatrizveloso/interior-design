@@ -1739,4 +1739,203 @@ a {
     height: 150px;
 }
 
+.popularCategories h1 {
+    display: none;
+}
+
+.popularCategories p {
+    display: none;
+}
+
+.recentPosts {
+    width: 100%;
+}
+
+.recentPosts p {
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.recentPosts h1 {
+    margin-left: 20px;
+    font-size: 40px;
+}
+
+.recentPosts button {
+    display: none;
+}
+
+.principles img {
+    width: 340px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.principles h1 {
+    width: 300px;
+    margin-left: 20px;
+    margin-top: -5px;
+    font-size: 18px;
+}
+
+.principles p {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.floor p {
+    margin-left: 260px;
+    margin-top: 50px;
+}
+
+.floor h1 {
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 16px;
+}
+
+.webflow img {
+    width: 340px;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.webflow h1 {
+    margin-top: -5px;
+    margin-left: 20px;
+    width: 300px;
+    font-size: 18px;
+}
+
+.webflow p {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.loveWeb p {
+    margin-left: 260px;
+    margin-top: 50px;
+}
+
+.loveWeb h1 {
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 16px;
+}
+
+.bestExamples img {
+    width: 340px;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.bestExamples h1 {
+    margin-top: -5px;
+    margin-left: 20px;
+    width: 300px;
+    font-size: 18px;
+}
+
+.bestExamples p {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.blogDesign h1 {
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 16px;
+}
+
+.blogDesign p {
+    margin-left: 260px;
+    margin-top: 50px;
+}
+
+.misconceptions img {
+    width: 340px;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.misconceptions h1 {
+    margin-top: -5px;
+    margin-left: 20px;
+    width: 300px;
+    font-size: 18px;
+}
+
+.misconceptions p {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.organization h1 {
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 16px;
+}
+
+.organization p {
+    margin-left: 260px;
+    margin-top: 50px;
+}
+
+.sevenThings img {
+    width: 340px;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.sevenThings h1 {
+    margin-top: -5px;
+    margin-left: 20px;
+    width: 300px;
+    font-size: 18px;
+}
+
+.sevenThings p {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.boss h1 {
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 16px;
+}
+
+.boss p {
+    margin-left: 260px;
+    margin-top: 50px;
+}
+
+.worstAdvice img {
+    width: 340px;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+.worstAdvice h1 {
+    margin-top: -5px;
+    margin-left: 20px;
+    width: 300px;
+    font-size: 18px;
+}
+
+.worstAdvice p {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.design h1 {
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 16px;
+}
+
+.design p {
+    margin-left: 260px;
+    margin-top: 50px;
+}
 }

@@ -1938,4 +1938,56 @@ a {
     margin-left: 260px;
     margin-top: 50px;
 }
+
+.nside {
+    height: 900px;
+    margin-top: 150px;
+}
+
+.nside h1 {
+    padding-top: 80px;
+    margin-left: 20px;
+}
+
+.nside h2 {
+    margin-left: 20px;
+}
+
+.nside p {
+    margin-left: 20px;
+}
+
+.navigation h1 {
+    margin-top: -440px;
+    margin-left: 20px;
+}
+
+.navigation p {
+    margin-left: 20px;
+}
+
+.follow h1 {
+    display: none;
+}
+
+.follow p {
+    display: none;
+}
+
+.circleInstagram {
+    display: none;
+}
+
+.circleFacebook {
+    display: none;
+}
+
+.circleLinkedin {
+    display: none;
+}
+
+.circleYoutube {
+    display: none;
+}
+
 }

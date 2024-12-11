@@ -961,7 +961,6 @@ a {
 }
 
 .floor p {
-    position: absolute;
     margin-left: 660px;
     margin-top: 80px;
     font-family: 'Open Sans';
@@ -973,9 +972,9 @@ a {
 }
 
 .floor h1 {
-    position: absolute;
+    display: flex;
     margin-left: 335px;
-    margin-top: 80px;
+    margin-top: -50px;
     font-family: 'Open Sans';
     font-size: 16px;
     font-weight: 400;
@@ -989,7 +988,7 @@ a {
     height: 210px;
     display: flex;
     margin-left: 758px;
-    margin-top: -300px;
+    margin-top: -400px;
 }
 
 .webflow h1 {
@@ -1017,7 +1016,6 @@ a {
 }
 
 .loveWeb p {
-    position: absolute;
     margin-left: 1110px;
     margin-top: 80px;
     font-family: 'Open Sans';
@@ -1029,9 +1027,9 @@ a {
 }
 
 .loveWeb h1 {
-    position: absolute;
+    display: flex;
     margin-left: 775px;
-    margin-top: 80px;
+    margin-top: -25px;
     font-family: 'Open Sans';
     font-size: 16px;
     font-weight: 400;
@@ -1041,10 +1039,11 @@ a {
 }
 
 .bestExamples img {
+    display: flex;
     width: 440px;
     height: 210px;
     margin-left: 325px;
-    margin-top: 70px;
+    margin-top: -28px;
 }
 
 .bestExamples h1 {
@@ -1072,9 +1071,9 @@ a {
 }
 
 .blogDesign h1 {
-    position: absolute;
+    display: flex;
     margin-left: 335px;
-    margin-top: 80px;
+    margin-top: -25px;
     font-family: 'Open Sans';
     font-size: 16px;
     font-weight: 400;
@@ -1084,7 +1083,6 @@ a {
 }
 
 .blogDesign p {
-    position: absolute;
     margin-left: 660px;
     margin-top: 80px;
     font-family: 'Open Sans';
@@ -1100,7 +1098,7 @@ a {
     height: 210px;
     display: flex;
     margin-left: 758px;
-    margin-top: -315px;
+    margin-top: -420px;
 }
 
 .misconceptions h1 {
@@ -1128,9 +1126,8 @@ a {
 }
 
 .organization h1 {
-    position: absolute;
     margin-left: 775px;
-    margin-top: 98px;
+    margin-top: -25px;
     font-family: 'Open Sans';
     font-size: 16px;
     font-weight: 400;
@@ -1140,7 +1137,6 @@ a {
 }
 
 .organization p {
-    position: absolute;
     margin-left: 1110px;
     margin-top: 98px;
     font-family: 'Open Sans';
@@ -1155,7 +1151,7 @@ a {
     width: 440px;
     height: 210px;
     margin-left: 325px;
-    margin-top: 85px;
+    margin-top: -30px;
 }
 
 .sevenThings h1 {
@@ -1183,7 +1179,6 @@ a {
 }
 
 .boss h1 {
-    position: absolute;
     margin-left: 335px;
     margin-top: 80px;
     font-family: 'Open Sans';
@@ -1195,9 +1190,8 @@ a {
 }
 
 .boss p {
-    position: absolute;
     margin-left: 660px;
-    margin-top: 80px;
+    margin-top: -25px;
     font-family: 'Open Sans';
     font-size: 16px;
     font-weight: 400;
@@ -1211,7 +1205,7 @@ a {
     height: 210px;
     display: flex;
     margin-left: 758px;
-    margin-top: -315px;
+    margin-top: -420px;
 }
 
 .worstAdvice h1 {
@@ -1239,7 +1233,6 @@ a {
 }
 
 .design h1 {
-    position: absolute;
     margin-left: 775px;
     margin-top: 98px;
     font-family: 'Open Sans';
@@ -1251,9 +1244,8 @@ a {
 }
 
 .design p {
-    position: absolute;
     margin-left: 1110px;
-    margin-top: 98px;
+    margin-top: -25px;
     font-family: 'Open Sans';
     font-size: 16px;
     font-weight: 400;
@@ -1266,7 +1258,7 @@ a {
     background-color: #090B19;
     width: 100%;
     height: 800px;
-    margin-top: 300px;
+    margin-top: 150px;
 }
 
 .nside h1 {

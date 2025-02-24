@@ -6,11 +6,12 @@ Este projeto consiste na reprodução de uma página fornecida pelo meu professo
 
 HTML
 CSS
-Funcionalidades:
 
-# Estrutura básica da página com HTML.
-Estilos aplicados utilizando CSS para replicar o layout original.
-Esse projeto me ajudou a aprofundar meus conhecimentos em HTML e CSS, além de aprimorar minha habilidade em trabalhar em colaboração.
+# Funcionalidades:
+
+Estrutura básica da página com HTML. <br>
+Estilos aplicados utilizando CSS para replicar o layout original. <br>
+Esse projeto me ajudou a aprofundar meus conhecimentos em HTML e CSS, além de aprimorar minha habilidade em trabalhar em colaboração.<br>
 
 
 ![image](https://github.com/beatrizveloso/interior-design/assets/156534028/3da160da-92a9-404e-bef5-8be06b2a3cd1)
